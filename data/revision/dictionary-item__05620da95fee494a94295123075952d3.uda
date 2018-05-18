@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Newsletter Form Sending Message",
+  "ParentId": "71180a51-6694-43d1-b2cd-5f28e262ba49",
+  "Translations": [
+    {
+      "Key": "05620da9-5fee-494a-9429-5123075952d3",
+      "Value": "Signing up to newsletter, please wait.",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/05620da95fee494a94295123075952d3",
+  "Udi": "umb://dictionary-item/05620da95fee494a94295123075952d3",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/71180a51669443d1b2cd5f28e262ba49",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
