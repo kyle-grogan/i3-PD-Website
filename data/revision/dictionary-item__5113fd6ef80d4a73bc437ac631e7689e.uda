@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Contact Form Signup Error",
+  "ParentId": "63bf75b8-c2f4-4e9e-82a8-db0fa3251373",
+  "Translations": [
+    {
+      "Key": "5113fd6e-f80d-4a73-bc43-7ac631e7689e",
+      "Value": "Sorry, an issue has occurred and we have been unable to sign you up to our mailing list, however your contact details were sent successfully.",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/5113fd6ef80d4a73bc437ac631e7689e",
+  "Udi": "umb://dictionary-item/5113fd6ef80d4a73bc437ac631e7689e",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/63bf75b8c2f44e9e82a8db0fa3251373",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
