@@ -1,0 +1,17 @@
+{
+  "ItemKey": "USN Window Section Component",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "16c56acd-e44a-4481-99f1-626cbe02efed",
+      "Value": "THIS IS JUST A CONTAINER TO MANAGE RELATED DICTIONARY ITEMS",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/16c56acde44a448199f1626cbe02efed",
+  "Udi": "umb://dictionary-item/16c56acde44a448199f1626cbe02efed",
+  "Dependencies": [],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
