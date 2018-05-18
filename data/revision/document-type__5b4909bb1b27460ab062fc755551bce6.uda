@@ -1,0 +1,64 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document color-blue",
+  "Thumbnail": "usn_home.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "9456dc83-4eba-426e-813e-f4990d32810e",
+      "Name": "Navigation",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "50eed5c0-59f5-4b27-a95f-0af56acbeb18",
+          "Alias": "hideBreadcrumb",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Hide breadcrumb",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "87aa338f-1eb7-4d5c-90c7-2f0a5a712f0f",
+          "Alias": "breadcrumbLinkText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Node name will be used by default if nothing is entered.",
+          "Mandatory": false,
+          "Name": "Breadcrumb link text",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5b4909bb1b27460ab062fc755551bce6",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Page Navigation Settings",
+  "Alias": "USN_CMP_PageNavSettings",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

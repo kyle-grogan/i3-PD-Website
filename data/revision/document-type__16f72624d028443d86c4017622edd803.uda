@@ -1,0 +1,212 @@
+{
+  "DefaultTemplate": "umb://template/c116059b6b5a420c943c696e57876310",
+  "AllowedTemplates": [
+    "umb://template/c116059b6b5a420c943c696e57876310"
+  ],
+  "Icon": "icon-layout",
+  "Thumbnail": "usn_text_rich_colored.png",
+  "Description": "Use this item to add a new \"Advanced Page Blog Post\".",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/0bccc4392de8414c8a447d88c7ff6ddc",
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/496b3beeb01b4f8b862862f63306a02a",
+    "umb://document-type/5b4909bb1b27460ab062fc755551bce6",
+    "umb://document-type/6f402cf4e9fd4d1f97a511007a9a7d97",
+    "umb://document-type/e7bafa0b58d6439d9134921d3cf607b1"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "0db5b405-d892-417c-a242-98425eeeb67f",
+      "Name": "Post Settings",
+      "SortOrder": 3,
+      "PropertyTypes": [
+        {
+          "Key": "0466b457-4837-453e-b144-8f3c7a0db2ef",
+          "Alias": "postAuthor",
+          "DataType": "umb://data-type/86ef462a8b844cfeb196df966460feb2",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Author",
+          "SortOrder": 2,
+          "Validation": ""
+        },
+        {
+          "Key": "9336a41e-7333-4ca4-bccc-65f46fb0c5ca",
+          "Alias": "disableComments",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": "Tick this box to disable commenting for this post. This is only relevant if you have entered a \"Disqus username\" on your \"Blog Landing Page\".",
+          "Mandatory": false,
+          "Name": "Disable comments",
+          "SortOrder": 3,
+          "Validation": ""
+        },
+        {
+          "Key": "d0336be2-9b76-48e5-aba7-196632b495b7",
+          "Alias": "postCategories",
+          "DataType": "umb://data-type/68d4cb19f10940a08211ad5e743bd3b6",
+          "Description": "If selecting a child category make sure you also select the parent categories.",
+          "Mandatory": false,
+          "Name": "Categories",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "d6c6b672-3b03-42b4-944e-b94ceaa4a9e5",
+          "Alias": "postDate",
+          "DataType": "umb://data-type/5046194e4237453ca54715db3a07c4e1",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Post date",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "9fe141d7-a46b-43a0-a438-0feeb812e96c",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "07ed4942-caa4-4456-84af-c02dd3c8bcc7",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Advanced Page Blog Post<i class=\"icon umb-tree-icon sprTree icon-layout pull-right\"></i></h3></div><div class=\"panel-body\"><p>To add content to this page you are required to add components to the \"Page Components\" folder directly below this page.</p><p>By adding new components you will be able to organise the layout and content of this page.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "b22898fc-ddf6-4141-8704-e51081f37fe5",
+      "Name": "Listing Content",
+      "SortOrder": 4,
+      "PropertyTypes": [
+        {
+          "Key": "54b88627-0bf0-4930-b5c2-cc8e32e371e0",
+          "Alias": "pageSummary",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Post summary",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "94243026-c2d8-4824-b7b2-bfb211483225",
+          "Alias": "pageListingImageAltText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Listing image alt text",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "b17040f1-faa2-445f-a6e9-1559a9c65ada",
+          "Alias": "pageListingImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "Image will be cropped to 1200px x 600px if displayed in a vertical list.\n\nImage will be cropped to 400px x 300px if displayed in a grid list.",
+          "Mandatory": false,
+          "Name": "Listing image",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/16f72624d028443d86c4017622edd803",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/5046194e4237453ca54715db3a07c4e1",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/68d4cb19f10940a08211ad5e743bd3b6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/86ef462a8b844cfeb196df966460feb2",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0bccc4392de8414c8a447d88c7ff6ddc",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/496b3beeb01b4f8b862862f63306a02a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/5b4909bb1b27460ab062fc755551bce6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6f402cf4e9fd4d1f97a511007a9a7d97",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e7bafa0b58d6439d9134921d3cf607b1",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/c116059b6b5a420c943c696e57876310",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Advanced Page Blog Post",
+  "Alias": "USNAdvancedPageBlogPost",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

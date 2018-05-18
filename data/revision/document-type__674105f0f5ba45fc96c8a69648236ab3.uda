@@ -1,0 +1,72 @@
+{
+  "DefaultTemplate": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+  "AllowedTemplates": [
+    "umb://template/ffed2ce5fae94b36831781eae7cefee8"
+  ],
+  "Icon": "icon-settings color-orange",
+  "Thumbnail": "usn_gear.png",
+  "Description": "Use this item to add a new \"Website Configuration Section\" to your website.",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/9518c33db9024b02bd12acc16ed97b20",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "7f0992a2-acbb-4cb5-81ae-40dbaaf2a968",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "c162c5dd-9c95-48a7-901d-f6255b80a0f7",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Website Configuration<i class=\"icon sprTree icon-settings color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>Items below this node manage your website configuration settings.</p>\n<p><strong>DO NOT</strong> delete this item.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [
+    {
+      "Key": "5f98b74f-ecf3-47df-99a4-865cde72ca5c",
+      "Alias": "disableDelete",
+      "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Description": "If \"Yes\" is selected, when a user attempts to delete this node they will be presented with a warning message indicating that this node cannot be deleted.",
+      "Mandatory": false,
+      "Name": "Disable delete",
+      "SortOrder": 0,
+      "Validation": null
+    }
+  ],
+  "Udi": "umb://document-type/674105f0f5ba45fc96c8a69648236ab3",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/9518c33db9024b02bd12acc16ed97b20",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Website Configuration Section",
+  "Alias": "USNWebsiteConfigurationSection",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

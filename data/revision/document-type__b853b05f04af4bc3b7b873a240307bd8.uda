@@ -1,0 +1,174 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-disc color-orange",
+  "Thumbnail": "usn_folder_pods.png",
+  "Description": "Use this item to add a new \"Pods Section\" to your page.",
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+  "AllowedChildContentTypes": [
+    "umb://document-type/bd8edcb556c94e1686db85a414d94d42"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/9c87b75e10764d87953f6756da78b495",
+    "umb://document-type/da03fa1abe47411da71c99dfd5bed690"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "073e7af5-f64e-44da-9e57-09ee23300e24",
+      "Name": "Component Settings",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "19638bba-ce7d-40ca-ac4a-08024ef53eca",
+          "Alias": "animate",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Animate",
+          "SortOrder": 5,
+          "Validation": null
+        },
+        {
+          "Key": "878508ec-89ce-4120-a437-c6dc87b047d1",
+          "Alias": "backgroundColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": "Color selected will decide what color is used for any text that appears over the background.\n\nIf a background image is used, use the color that works best for the text over the image.",
+          "Mandatory": false,
+          "Name": "Background color",
+          "SortOrder": 0,
+          "Validation": ""
+        },
+        {
+          "Key": "ace39f60-55db-4041-917f-3202d463371c",
+          "Alias": "buttonColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Button color",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "b8099720-64fe-41e9-8502-46527302ca37",
+          "Alias": "backgroundImageOptions",
+          "DataType": "umb://data-type/3f4af8a2fe2f4890bab56a3bf3a07db3",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Background image options",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "c37d51a9-ec82-4852-a519-56e9ead1afee",
+          "Alias": "backgroundImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "No recommended image size.\n\nIf the image will cover the full area of the component, use a large image.\n\nIf the image will repeat, use a small image.",
+          "Mandatory": false,
+          "Name": "Background image",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "f03ee4af-0952-4647-854b-500123569f17",
+          "Alias": "podStyle",
+          "DataType": "umb://data-type/0aac28c0dbcb4afea433dc045c5b41d3",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Pod style",
+          "SortOrder": 4,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "9c490ede-b009-4d4d-9546-6ce739f047fc",
+      "Name": "Instructions",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "154e580f-2845-4e18-bfcb-01c577413f79",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Pod Section<i class=\"icon sprTree icon-disc color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p><p>Add multiple \"Pods\" via the \"Pods\" tab.</p><p>The sort order of your \"Pods\" directly relates to the order your \"Pods\" will be displayed on this page. Use  <strong>Actions > Sort</strong> to reorder your \"Pods\".</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b853b05f04af4bc3b7b873a240307bd8",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0aac28c0dbcb4afea433dc045c5b41d3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3f4af8a2fe2f4890bab56a3bf3a07db3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9c87b75e10764d87953f6756da78b495",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/bd8edcb556c94e1686db85a414d94d42",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/da03fa1abe47411da71c99dfd5bed690",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Pods Section",
+  "Alias": "USN_AC_PodsSection_AN",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

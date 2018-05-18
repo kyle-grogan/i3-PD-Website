@@ -1,0 +1,100 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-link color-orange",
+  "Thumbnail": "usn_paperclip.png",
+  "Description": "Use this item to add a new \"Resource Item\" to this section.",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "59e7a404-6c6d-4b35-92dd-c847dcf5ddd0",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "c38dcec8-f632-41b2-9b2f-2b2afffff853",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Resource Item<i class=\"icon sprTree icon-link color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "e7e5316c-5a2e-4fdc-98f0-fe194790c3a2",
+      "Name": "Content",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "23f4af85-ecc7-4139-a970-e510c5515441",
+          "Alias": "link",
+          "DataType": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Link",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "8ad4b1b1-d1d7-45f9-b508-bdd4f5ac9bb9",
+          "Alias": "optionalAdditionalInformation",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Optional additional information",
+          "SortOrder": 1,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/777249080aa144eaa602d03b94618ae7",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Resource Item",
+  "Alias": "USN_SC_ResourceItem",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

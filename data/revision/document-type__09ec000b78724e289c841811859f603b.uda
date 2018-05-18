@@ -1,0 +1,262 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-picture color-orange",
+  "Thumbnail": "usn_landscape.png",
+  "Description": "Use this item to add a new \"Banner\" to this section.",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "59d69dee-e0f2-4a73-a9b9-f4ba9d67ad27",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "dfc8388e-c34c-45bb-9594-ee708b145553",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Banner<i class=\"icon sprTree icon-picture color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "68d828da-d2da-42bc-8462-37c0f0150f86",
+      "Name": "Component Settings",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "02cbed38-9d61-4103-98f2-c291c550b059",
+          "Alias": "scrollPrompt",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Scroll prompt",
+          "SortOrder": 5,
+          "Validation": null
+        },
+        {
+          "Key": "1b5e54f7-ca3c-41bd-bd90-1d0cb355cdd4",
+          "Alias": "bannerStyle",
+          "DataType": "umb://data-type/9f07a4efe09e42b1826f2a5da5944b53",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Banner style",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "46171cca-e577-4c4c-b873-36373a16c64d",
+          "Alias": "bannerTextAlignment",
+          "DataType": "umb://data-type/d9d02e516287496db16f349c69e62a1e",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Text alignment",
+          "SortOrder": 3,
+          "Validation": ""
+        },
+        {
+          "Key": "8374edbc-751b-42ef-a95c-033a73ea30c0",
+          "Alias": "parallax",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Parallax",
+          "SortOrder": 6,
+          "Validation": null
+        },
+        {
+          "Key": "a24c44b5-e01c-42e6-a198-867fbbc573ff",
+          "Alias": "backgroundColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": "Color selected will decide what color is used for any text that appears over the background.\n\nIf the banner contains an image, use the color that works best for the text over the image.",
+          "Mandatory": false,
+          "Name": "Background color",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "d5445843-256e-43ff-8ef1-c49a4a088888",
+          "Alias": "addColorOverlay",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": "The color overlay added to your banner will be decided based on the background color selected.",
+          "Mandatory": false,
+          "Name": "Add color overlay",
+          "SortOrder": 4,
+          "Validation": null
+        },
+        {
+          "Key": "f966dbf5-bbce-4416-ae4e-0cd8ede30c98",
+          "Alias": "buttonColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Button color",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "fb5065de-3a74-4202-90f8-07ef5f72f629",
+          "Alias": "animate",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Animate",
+          "SortOrder": 7,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "7e069437-f723-454f-9fb2-6cc879d0deb1",
+      "Name": "Content",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "0bed6511-c695-4832-9ff5-7b8afb6bc637",
+          "Alias": "bannerHeading",
+          "DataType": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+          "Description": "Heading style chosen will not affect font size. This option is purely for setting your heading hierarchy for SEO purposes.",
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 3,
+          "Validation": ""
+        },
+        {
+          "Key": "32326e7a-7d97-43b1-95eb-c481b1211157",
+          "Alias": "bannerImageAltText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Image alt text",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "48982286-c564-40c4-9194-4d99e3f024bb",
+          "Alias": "bannerText",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Text",
+          "SortOrder": 4,
+          "Validation": ""
+        },
+        {
+          "Key": "65f81849-2ad5-4326-9eeb-074055e4da1b",
+          "Alias": "bannerLink",
+          "DataType": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+          "Description": "The \"Caption\" field will be used for your link text.",
+          "Mandatory": false,
+          "Name": "Link",
+          "SortOrder": 5,
+          "Validation": null
+        },
+        {
+          "Key": "8831bc4c-50d7-4f8d-8f4e-0a1629b3749b",
+          "Alias": "video",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "MP4 format only. The image above will be displayed first before the video is downloaded.\n\nIt is recommended to use the smallest file size possible to enable quick downloads.",
+          "Mandatory": false,
+          "Name": "Video",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "b7a5aa72-7167-494d-98cd-cde0c5208026",
+          "Alias": "bannerImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "For all Parallax and Takeover banners, your image will be cropped to 1500px by 1100px.\n\nIf you choose a 'Medium' banner style without the Parallax effect your image will be cropped to 1500px by 550px.\n\nIf you choose a 'Short' banner style without the Parallax effect your image will be cropped to 1500px by 400px.\n\nFocal point of the image is defined within your \"Media\" section.",
+          "Mandatory": false,
+          "Name": "Image",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/09ec000b78724e289c841811859f603b",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/9f07a4efe09e42b1826f2a5da5944b53",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d9d02e516287496db16f349c69e62a1e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Banner",
+  "Alias": "USN_AC_Banner",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

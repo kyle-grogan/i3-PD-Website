@@ -1,0 +1,96 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document color-blue",
+  "Thumbnail": "usn_folder_pods.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "88ba0b4f-3b5a-4dd5-8bfb-5ab61fd518b6",
+      "Name": "Introduction",
+      "SortOrder": 3,
+      "PropertyTypes": [
+        {
+          "Key": "3ef2a648-a2f4-433f-a545-b46acd2ee7ae",
+          "Alias": "introductionText",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Text",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "ca1cb3a5-5494-4f15-a3a6-9c03cd20d178",
+          "Alias": "introductionHeading",
+          "DataType": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+          "Description": "Heading style chosen will not affect font size. This option is purely for setting your heading hierarchy for SEO purposes.",
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "ec9d44b6-8389-44bb-aa8d-2cc9c9f1ccbd",
+      "Name": "Outro",
+      "SortOrder": 8,
+      "PropertyTypes": [
+        {
+          "Key": "44dd5914-f1d4-4e92-b94c-0e8782751789",
+          "Alias": "outroLinks",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Select the links you would like to appear in the \"Outro\" section of this component.\n\nThe \"Caption\" field will be used for your link text.",
+          "Mandatory": false,
+          "Name": "Links",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "e626cfb2-8cce-4aae-9398-e00b1f3ae423",
+          "Alias": "outroText",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Text",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/9c87b75e10764d87953f6756da78b495",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Advanced Component Intro/Outro",
+  "Alias": "USN_CMP_IntroOutro",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

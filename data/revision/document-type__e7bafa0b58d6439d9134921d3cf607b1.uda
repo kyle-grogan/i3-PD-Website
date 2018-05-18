@@ -1,0 +1,97 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document color-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [
+    {
+      "Key": "176dd82d-0b61-433a-98b9-52e3307a98bc",
+      "Alias": "customBodyClasses",
+      "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Description": "Override the default styles of this page by adding page specific classes. You should leave a space between each individual class e.g:\n\ncustom-class another-class",
+      "Mandatory": false,
+      "Name": "Custom body classes",
+      "SortOrder": 7,
+      "Validation": null
+    },
+    {
+      "Key": "408c8c38-eed5-4093-80dd-6aa043508088",
+      "Alias": "hideWebsiteFooterSection",
+      "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Description": "This setting is useful for landing pages where you want a clear 'call to action' and don't want to distract your users with other options.",
+      "Mandatory": false,
+      "Name": "Hide website footer section",
+      "SortOrder": 5,
+      "Validation": null
+    },
+    {
+      "Key": "5a03e462-b5eb-4ba7-84be-068e788b8d89",
+      "Alias": "umbracoNaviHide",
+      "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Description": "",
+      "Mandatory": false,
+      "Name": "Hide from all navigation",
+      "SortOrder": 2,
+      "Validation": ""
+    },
+    {
+      "Key": "d2c34397-d9dd-447f-a9ae-da1ae0bc6771",
+      "Alias": "umbracoUrlAlias",
+      "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Description": "Use this field to provide multiple URLs for a content node.\n\nFor example if you were to enter \"examplepage1,examplepage2/this-is-a-test\", this would resolve the following URLs to the same page.\n\n/examplepage1/\n/examplepage2/this-is-a-test/\n\nPlease note that the values you use must be lowercase, not use a leading slash and not use a trailing \".aspx\".",
+      "Mandatory": false,
+      "Name": "Alternative URL",
+      "SortOrder": 6,
+      "Validation": ""
+    },
+    {
+      "Key": "ddf682e2-a3cd-48b6-824c-21ffb60643d3",
+      "Alias": "hideWebsiteHeaderSection",
+      "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Description": "This setting is useful for landing pages where you want a clear 'call to action' and don't want to distract your users with other options.",
+      "Mandatory": false,
+      "Name": "Hide website header section",
+      "SortOrder": 4,
+      "Validation": null
+    },
+    {
+      "Key": "eb360022-6c52-4575-811a-cd1d46ec3e04",
+      "Alias": "hideFromSearchEngines",
+      "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Description": "This will add a noindex meta tag to your page.",
+      "Mandatory": false,
+      "Name": "Hide from search engines",
+      "SortOrder": 3,
+      "Validation": null
+    }
+  ],
+  "Udi": "umb://document-type/e7bafa0b58d6439d9134921d3cf607b1",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Page Generic Properties",
+  "Alias": "USN_CMP_PageGenericProperties",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

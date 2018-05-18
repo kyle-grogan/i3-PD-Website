@@ -1,0 +1,98 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-pictures-alt-2 color-orange",
+  "Thumbnail": "usn_folder_images.png",
+  "Description": "Use this item to add a new \"Banner Section\" to your page.",
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+  "AllowedChildContentTypes": [
+    "umb://document-type/09ec000b78724e289c841811859f603b"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/da03fa1abe47411da71c99dfd5bed690"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "3147135c-38dd-4aa9-956e-974b1df3e037",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "4ce24efe-672c-4518-bc65-faabb9d91f45",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Banner Section<i class=\"icon sprTree icon-pictures-alt-2 color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p><p>Add multiple \"Banners\" via the \"Banners\" tab. You must add at least one \"Banner\" for this section to be displayed.</p><p>The sort order of your \"Banners\" directly relates to the order your \"Banners\" will be displayed on this page. Use  <strong>Actions > Sort</strong> to reorder your \"Banners\".</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "ece73565-afd6-4dc2-b110-b3dd8399cfa0",
+      "Name": "Component Settings",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "4a599884-97aa-487b-aefe-7ae14449eeac",
+          "Alias": "autoRotateSpeed",
+          "DataType": "umb://data-type/e5c5c9dee61a4fb48e6a78a26b3418ff",
+          "Description": "A value of 0 will stop auto rotation.",
+          "Mandatory": false,
+          "Name": "Auto rotate speed",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/06368ab30c25491caec36c814d4c301c",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e5c5c9dee61a4fb48e6a78a26b3418ff",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/09ec000b78724e289c841811859f603b",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/da03fa1abe47411da71c99dfd5bed690",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Banner Section",
+  "Alias": "USN_AC_BannerSection_AN",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

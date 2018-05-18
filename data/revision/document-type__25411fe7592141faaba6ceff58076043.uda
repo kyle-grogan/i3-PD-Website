@@ -1,0 +1,157 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-paper-plane-alt color-orange",
+  "Thumbnail": "folder.png",
+  "Description": "Use this item to add a new \"Contact Form\" to your page.",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/2d7a4f0701d943339ff6dce6b6891714",
+    "umb://document-type/da03fa1abe47411da71c99dfd5bed690"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "c0c222e5-2301-4b34-9a8f-51cab6e4d76f",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "e2155f3f-2e82-4c81-b83b-953e3403ab0e",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Contact Form<i class=\"icon sprTree icon-paper-plane-alt color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "ca34d2b3-0958-4f8b-9a7e-a4fdf92f754e",
+      "Name": "Content",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "268f5686-5c2b-4d55-b146-5abfe370173c",
+          "Alias": "contactFormHeading",
+          "DataType": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+          "Description": "Heading style chosen will not affect font size. This option is purely for setting your heading hierarchy for SEO purposes.",
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "670b779f-4b06-425e-ba6b-80ec2b705d6e",
+          "Alias": "contactFormIntroduction",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Introduction",
+          "SortOrder": 2,
+          "Validation": ""
+        },
+        {
+          "Key": "a79d77f8-2168-42c9-b55b-2fef57863fa2",
+          "Alias": "contactFormButtonText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Button text",
+          "SortOrder": 3,
+          "Validation": ""
+        },
+        {
+          "Key": "e1439500-cd01-4de1-bac7-c11d5c0ec274",
+          "Alias": "recipientEmailAddress",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Recipient Email address",
+          "SortOrder": 0,
+          "Validation": ""
+        },
+        {
+          "Key": "e1f6c64b-b749-495e-9df7-8d4be24d2476",
+          "Alias": "submissionMessage",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Submission message",
+          "SortOrder": 4,
+          "Validation": ""
+        },
+        {
+          "Key": "f8217865-1bd9-4ffc-a300-38d68e850364",
+          "Alias": "newsletterSubscriberListID",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Newsletter Signup will only be available if a Subscriber List ID is available. Use this field to override the default Subscriber List ID in \"Global Settings\" if present.",
+          "Mandatory": false,
+          "Name": "Subscriber list ID",
+          "SortOrder": 5,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/25411fe7592141faaba6ceff58076043",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/2d7a4f0701d943339ff6dce6b6891714",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/da03fa1abe47411da71c99dfd5bed690",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Contact Form",
+  "Alias": "USN_SC_ContactForm_AN",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

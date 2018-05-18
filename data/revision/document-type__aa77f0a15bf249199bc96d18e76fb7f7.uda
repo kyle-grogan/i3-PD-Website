@@ -1,0 +1,127 @@
+{
+  "DefaultTemplate": "umb://template/36cc4c4903134971bbacbaf50e40be91",
+  "AllowedTemplates": [
+    "umb://template/36cc4c4903134971bbacbaf50e40be91"
+  ],
+  "Icon": "icon-sitemap",
+  "Thumbnail": "usn_branch.png",
+  "Description": "Use this item to create a new \"Sitemap Page\".",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/0bccc4392de8414c8a447d88c7ff6ddc",
+    "umb://document-type/197bfacc5768465e9605b5ca99c0f09b",
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/496b3beeb01b4f8b862862f63306a02a",
+    "umb://document-type/5b4909bb1b27460ab062fc755551bce6",
+    "umb://document-type/6f402cf4e9fd4d1f97a511007a9a7d97",
+    "umb://document-type/9a3332b063ac407e958409ac886c3692",
+    "umb://document-type/e7bafa0b58d6439d9134921d3cf607b1"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "5d221c95-614e-46c9-ad92-f65bdd04ce75",
+      "Name": "Page Settings",
+      "SortOrder": 3,
+      "PropertyTypes": [
+        {
+          "Key": "15b052a2-86d2-4d2a-9b47-645b68d5f2d9",
+          "Alias": "pageLayout",
+          "DataType": "umb://data-type/316c072380004401bdadf4b23390b2e1",
+          "Description": "Default page layout will be displayed if nothing is selected. \n\nIf 'Content full width' is selected sub navigation will be hidden.",
+          "Mandatory": false,
+          "Name": "Page layout",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "e9d49e13-37bb-4d26-8662-95dafd586bf6",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "c813ac76-c0c1-418c-b306-56cd3956fa7f",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Sitemap Page<i class=\"icon umb-tree-icon sprTree icon-sitemap pull-right\"></i></h3></div><div class=\"panel-body\"><p>This page displays your website sitemap.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/aa77f0a15bf249199bc96d18e76fb7f7",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/316c072380004401bdadf4b23390b2e1",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0bccc4392de8414c8a447d88c7ff6ddc",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/197bfacc5768465e9605b5ca99c0f09b",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/496b3beeb01b4f8b862862f63306a02a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/5b4909bb1b27460ab062fc755551bce6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6f402cf4e9fd4d1f97a511007a9a7d97",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9a3332b063ac407e958409ac886c3692",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e7bafa0b58d6439d9134921d3cf607b1",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/36cc4c4903134971bbacbaf50e40be91",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Sitemap Page",
+  "Alias": "USNSitemapPage",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

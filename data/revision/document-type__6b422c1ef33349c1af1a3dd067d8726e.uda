@@ -1,0 +1,110 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-slideshow color-orange",
+  "Thumbnail": "usn_folder_images.png",
+  "Description": "Use this item to add a new \"Slideshow Section\" to your page.",
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+  "AllowedChildContentTypes": [
+    "umb://document-type/c6441651c17b41058246198241f7afa5",
+    "umb://document-type/d3de09d41a3f40d5aa67b110d7a8546f"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/2d7a4f0701d943339ff6dce6b6891714",
+    "umb://document-type/da03fa1abe47411da71c99dfd5bed690"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "2016ca10-cb3a-40cf-8aef-008b2784dd92",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "637bae35-b3cb-40c0-acc8-b63a4c938065",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Slideshow Section<i class=\"icon sprTree icon-slideshow color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p><p>Add multiple \"Image/Video\" to the \"Image/Video\" Tab. </p><p>The sort order of your \"Image/Video\" directly relates to the order your \"Image/Video\" will be displayed on this page. Use  <strong>Actions > Sort</strong> to reorder your \"Image/Video\".</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "65f30c55-c6fc-4af3-8e93-1b9dd31f9e09",
+      "Name": "Component Settings",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "b430b917-375f-4cd8-b7be-bece05d44041",
+          "Alias": "autoRotateSpeed",
+          "DataType": "umb://data-type/e5c5c9dee61a4fb48e6a78a26b3418ff",
+          "Description": "A value of 0 will stop auto rotation.",
+          "Mandatory": false,
+          "Name": "Auto rotate speed",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6b422c1ef33349c1af1a3dd067d8726e",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e5c5c9dee61a4fb48e6a78a26b3418ff",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/2d7a4f0701d943339ff6dce6b6891714",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/c6441651c17b41058246198241f7afa5",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/d3de09d41a3f40d5aa67b110d7a8546f",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/da03fa1abe47411da71c99dfd5bed690",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Slideshow Section",
+  "Alias": "USN_SC_SlideshowSection_AN",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

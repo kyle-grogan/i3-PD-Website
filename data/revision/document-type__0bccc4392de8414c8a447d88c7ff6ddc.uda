@@ -1,0 +1,169 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document color-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "895aaff3-f480-4b41-89ec-2767435b026b",
+      "Name": "Outro Strip",
+      "SortOrder": 8,
+      "PropertyTypes": [
+        {
+          "Key": "2a90654a-b0fa-412b-80c9-6742bbbf2b6e",
+          "Alias": "outroAnimate",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Animate",
+          "SortOrder": 6,
+          "Validation": null
+        },
+        {
+          "Key": "3b35eeb1-c822-4703-a8bf-037c9da22bed",
+          "Alias": "outroBackgroundImageOptions",
+          "DataType": "umb://data-type/3f4af8a2fe2f4890bab56a3bf3a07db3",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Background image options",
+          "SortOrder": 5,
+          "Validation": null
+        },
+        {
+          "Key": "404c060f-2c71-41e3-bf2d-ff175d7039ca",
+          "Alias": "hideOutroStripSection",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": "Select \"Yes\" to hide the outro strip section if content has been added to \"Global Settings\".",
+          "Mandatory": false,
+          "Name": "Hide outro strip section",
+          "SortOrder": 0,
+          "Validation": ""
+        },
+        {
+          "Key": "5b164bea-995e-41b9-bc53-989d753de29b",
+          "Alias": "outroHeading",
+          "DataType": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+          "Description": "Heading style chosen will not affect font size. This option is purely for setting your heading hierarchy for SEO purposes.",
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 7,
+          "Validation": null
+        },
+        {
+          "Key": "987dcb27-e388-48de-b3f3-a255457e73cc",
+          "Alias": "overrideDefaultOutroStripSection",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": "Select \"Yes\" to override the default outro stip section if content has been added to \"Global Settings\" and use the content entered below.",
+          "Mandatory": false,
+          "Name": "Override default outro strip section",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "9f5d9673-e02e-4c7c-97b3-2b9f6176d4fc",
+          "Alias": "outroText",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": "If text is added here it will override the default text added in \"Global Settings\"",
+          "Mandatory": false,
+          "Name": "Text",
+          "SortOrder": 8,
+          "Validation": ""
+        },
+        {
+          "Key": "bac3d75d-8dfc-45af-bab7-830b4159f884",
+          "Alias": "outroLink",
+          "DataType": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+          "Description": "The \"Caption\" field will be used for your link text.",
+          "Mandatory": false,
+          "Name": "Link",
+          "SortOrder": 9,
+          "Validation": null
+        },
+        {
+          "Key": "c102bc7a-6721-4646-8d81-8bcab87475a5",
+          "Alias": "outroBackgroundColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": "Color selected will decide what color is used for any text that appears over the background.",
+          "Mandatory": false,
+          "Name": "Background color",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "d439fbfc-eb1b-4c3d-b2c1-f172323bc61e",
+          "Alias": "outroButtonColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Button color",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "dcf8e887-c092-4d07-aeed-3496eb893828",
+          "Alias": "outroBackgroundImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "No recommended image size.\n\nIf the image will cover the full area of the component, use a large image.\n\nIf the image will repeat, use a small image.",
+          "Mandatory": false,
+          "Name": "Background image",
+          "SortOrder": 4,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/0bccc4392de8414c8a447d88c7ff6ddc",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3f4af8a2fe2f4890bab56a3bf3a07db3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Outro Strip",
+  "Alias": "USN_CMP_OutroStrip",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

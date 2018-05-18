@@ -1,0 +1,115 @@
+{
+  "DefaultTemplate": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+  "AllowedTemplates": [
+    "umb://template/ffed2ce5fae94b36831781eae7cefee8"
+  ],
+  "Icon": "icon-bulleted-list color-orange",
+  "Thumbnail": "usn_text_list_bullets.png",
+  "Description": "Use this item to create a new \"Listing Pod\".",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/378e87fad53947cb9ebe9eb8ffc33548",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "5740915a-1072-4073-9b50-6ba99d54cde3",
+      "Name": "Content",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "138871a7-640c-49e3-8f8a-21aecfbfbb31",
+          "Alias": "pagesToDisplay",
+          "DataType": "umb://data-type/2e6d3631066e44b8aec496f09099b2b5",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Pages to display",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "6011d655-986e-4dca-8e6c-a166ed5ac49e",
+          "Alias": "podTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Title",
+          "SortOrder": 0,
+          "Validation": ""
+        },
+        {
+          "Key": "a93091b4-e76c-4520-b104-13b65d251b67",
+          "Alias": "linkToListing",
+          "DataType": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+          "Description": "Link this to an internal page that contains sub pages. Sub pages will be listed.\n\nIf linking to a \"Blog\", either link to the \"Blog Landing Page\" or \"Blog Category Page\".\n\nLinks to external pages will be ignored.",
+          "Mandatory": true,
+          "Name": "Link to listing",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "909b9062-d9b4-42fc-b3b3-9f28425eb8ed",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "15783e28-e4a2-42ec-84d1-2782aa73020c",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Listing Pod<i class=\"icon sprTree icon-bulleted-list color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/ffee102272584b1e8d06c4016a27af12",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2e6d3631066e44b8aec496f09099b2b5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/378e87fad53947cb9ebe9eb8ffc33548",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Listing Pod",
+  "Alias": "USN_SWP_ListingPod",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

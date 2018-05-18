@@ -1,0 +1,202 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-folder-outline color-orange",
+  "Thumbnail": "folder.png",
+  "Description": "This item is added automatically to \"Advanced Pages\" to organise your page components.",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+  "AllowedChildContentTypes": [
+    "umb://document-type/06368ab30c25491caec36c814d4c301c",
+    "umb://document-type/0852b01461a240ca888b611736551764",
+    "umb://document-type/133392426ff94a35bff5b8420df3e595",
+    "umb://document-type/25411fe7592141faaba6ceff58076043",
+    "umb://document-type/32704368345246d098395a91adec1088",
+    "umb://document-type/3573469b1a4b41ad81c4f930a7ce4f0a",
+    "umb://document-type/4b7f2d5dc9f3442f86329afd705700c7",
+    "umb://document-type/5703280bdc6f4f619e6719b13e9b49e7",
+    "umb://document-type/57c5ad7c536449c2b9501c94641aa489",
+    "umb://document-type/66d8a6bb40cb4f9aaaf99c65005f18ed",
+    "umb://document-type/6a35e8fe83b64a99bdeabb51e0f9d286",
+    "umb://document-type/6a9d5c870b284f59864864c9c2bc3f93",
+    "umb://document-type/6b422c1ef33349c1af1a3dd067d8726e",
+    "umb://document-type/81e8964bfe50458aacc9677cca33c090",
+    "umb://document-type/a692e278d8864bb3af63ce4b625e403f",
+    "umb://document-type/a98abad5efb148c3a769fc7e2ac48648",
+    "umb://document-type/ab299ce963044d1f9354acc2069bda44",
+    "umb://document-type/b2358eb3c20c43f0adb69f8d1fb8a568",
+    "umb://document-type/b2ada7b4f2bb4b2d9baaa7513604b27c",
+    "umb://document-type/b853b05f04af4bc3b7b873a240307bd8",
+    "umb://document-type/d00dc69145354482a00a8572c97b69fc",
+    "umb://document-type/d46f4bafacc74c01a605d37f52f0f149",
+    "umb://document-type/d824921cc9144997ac39f3bd3c95c49d"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "0ada6b73-8757-47e4-aa36-7a12a9deeba0",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "0f885a9b-8b1a-45dd-9527-397879fef200",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Page Components<i class=\"icon sprTree icon-folder-outline color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>Add components below this folder to organise the layout and content of your page.</p><p>The order of your components within this folder directly relates to the order your components will be displayed on this page. Use <strong>Actions > Sort</strong> to reorder your components.<p><strong>DO NOT</strong> delete or rename this folder.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/c7e73ee49ccc4ee3bc109057acc5cbef",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/06368ab30c25491caec36c814d4c301c",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0852b01461a240ca888b611736551764",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/133392426ff94a35bff5b8420df3e595",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/25411fe7592141faaba6ceff58076043",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/32704368345246d098395a91adec1088",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/3573469b1a4b41ad81c4f930a7ce4f0a",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/4b7f2d5dc9f3442f86329afd705700c7",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/5703280bdc6f4f619e6719b13e9b49e7",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/57c5ad7c536449c2b9501c94641aa489",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/66d8a6bb40cb4f9aaaf99c65005f18ed",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6a35e8fe83b64a99bdeabb51e0f9d286",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6a9d5c870b284f59864864c9c2bc3f93",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6b422c1ef33349c1af1a3dd067d8726e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/81e8964bfe50458aacc9677cca33c090",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a692e278d8864bb3af63ce4b625e403f",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a98abad5efb148c3a769fc7e2ac48648",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ab299ce963044d1f9354acc2069bda44",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/b2358eb3c20c43f0adb69f8d1fb8a568",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/b2ada7b4f2bb4b2d9baaa7513604b27c",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/b853b05f04af4bc3b7b873a240307bd8",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/d00dc69145354482a00a8572c97b69fc",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/d46f4bafacc74c01a605d37f52f0f149",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/d824921cc9144997ac39f3bd3c95c49d",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/21c33808279e43a9946d4497d94a3101",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Advanced Page Components Folder",
+  "Alias": "USNAdvancedPageComponents",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

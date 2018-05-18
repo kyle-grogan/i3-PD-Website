@@ -1,0 +1,144 @@
+{
+  "DefaultTemplate": "umb://template/733e46527e5143a9a8a00e7cfd4ee48e",
+  "AllowedTemplates": [
+    "umb://template/733e46527e5143a9a8a00e7cfd4ee48e"
+  ],
+  "Icon": "icon-home",
+  "Thumbnail": "usn_home.png",
+  "Description": "Use this item to create your website \"Homepage\".",
+  "AllowedAtRoot": true,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+  "AllowedChildContentTypes": [
+    "umb://document-type/284f9ac52a004529baa82cf61103fbaf",
+    "umb://document-type/f69c2a197a084b3988d5244f6f1746e9"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/0bccc4392de8414c8a447d88c7ff6ddc",
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/496b3beeb01b4f8b862862f63306a02a",
+    "umb://document-type/5b4909bb1b27460ab062fc755551bce6",
+    "umb://document-type/6f402cf4e9fd4d1f97a511007a9a7d97",
+    "umb://document-type/e7bafa0b58d6439d9134921d3cf607b1"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "8dce46b4-a2e4-46c9-b964-897145f5dbcb",
+      "Name": "Navigation",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "1292aea6-d791-4b8c-b6dc-d958ffe3e555",
+          "Alias": "sitemapLinkText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Node name will be used by default if nothing is entered.",
+          "Mandatory": false,
+          "Name": "Sitemap link text",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "c9e70c78-1e87-417f-8724-81ddb69fdf25",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "a14890b9-7186-4f75-ab55-20d291788f48",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Homepage<i class=\"icon umb-tree-icon sprTree icon-home pull-right\"></i></h3></div><div class=\"panel-body\"><p>To add content to this page you are required to add components to the \"Page Components\" folder directly below this page.</p><p>By adding new components you will be able to organise the layout and content of this page.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [
+    {
+      "Key": "4707376f-1651-4177-b0a7-3124877f855f",
+      "Alias": "websiteConfigurationNode",
+      "DataType": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+      "Description": "Select the 'Website Configuration' node that will control the global properties of this website.",
+      "Mandatory": true,
+      "Name": "Website configuration node",
+      "SortOrder": 0,
+      "Validation": ""
+    }
+  ],
+  "Udi": "umb://document-type/7e5f81291c4a4c959026d0d33c9eee16",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0bccc4392de8414c8a447d88c7ff6ddc",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/284f9ac52a004529baa82cf61103fbaf",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/496b3beeb01b4f8b862862f63306a02a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/5b4909bb1b27460ab062fc755551bce6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6f402cf4e9fd4d1f97a511007a9a7d97",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e7bafa0b58d6439d9134921d3cf607b1",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f69c2a197a084b3988d5244f6f1746e9",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/733e46527e5143a9a8a00e7cfd4ee48e",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Homepage",
+  "Alias": "USNHomepage",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

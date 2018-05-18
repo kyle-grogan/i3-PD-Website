@@ -1,0 +1,110 @@
+{
+  "DefaultTemplate": "umb://template/55492f5bfaee41b3bf037b9526ca28e8",
+  "AllowedTemplates": [
+    "umb://template/55492f5bfaee41b3bf037b9526ca28e8"
+  ],
+  "Icon": "icon-rss color-orange",
+  "Thumbnail": "usn_rss.png",
+  "Description": "Use this item to create your \"Blog RSS Feed\".",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "fb777ed7-fe5d-40e6-993f-6055df6eacac",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "da17b94a-4137-4f2e-9128-f979884f90fb",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Blog RSS<i class=\"icon sprTree icon-rss color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>This page will display the RSS feed for your blog posts.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "fead6aa3-ced2-4f57-ace2-35056c946217",
+      "Name": "Content",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "373ab926-6024-4e47-98f8-c3377578fe57",
+          "Alias": "rssCopyright",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Copyright",
+          "SortOrder": 2,
+          "Validation": ""
+        },
+        {
+          "Key": "d77de7b3-06db-4038-80a9-01632c952d56",
+          "Alias": "rssTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Title",
+          "SortOrder": 0,
+          "Validation": ""
+        },
+        {
+          "Key": "fe7345c5-7030-430d-92c6-abbd2a9584f4",
+          "Alias": "rssDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Description",
+          "SortOrder": 1,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7ec0060e89c04cec8af3ef51af909e2b",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/eee68a8beb494b7999504ba0a6169354",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/55492f5bfaee41b3bf037b9526ca28e8",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blog RSS",
+  "Alias": "USNBlogRSS",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

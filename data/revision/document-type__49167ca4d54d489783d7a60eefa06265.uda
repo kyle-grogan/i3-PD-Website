@@ -1,0 +1,130 @@
+{
+  "DefaultTemplate": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+  "AllowedTemplates": [
+    "umb://template/ffed2ce5fae94b36831781eae7cefee8"
+  ],
+  "Icon": "icon-circle-dotted-active color-orange",
+  "Thumbnail": "usn_form_blue.png",
+  "Description": "Use this item to create a new \"Newsletter Signup Pod\".",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/378e87fad53947cb9ebe9eb8ffc33548",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "06ccaf96-2dd9-4856-b273-bacc969758bd",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "8700a3a0-3226-4a32-8e30-dcc18e2d5195",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Newsletter Signup Pod<i class=\"icon sprTree icon-circle-dotted-active color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "1f82a58b-19a6-4d0d-a1ec-156eb07bde67",
+      "Name": "Content",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "35ec774f-9810-4186-969b-f226872c000e",
+          "Alias": "newsletterSubscriberListID",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Newsletter Signup will only be available if a Subscriber List ID is available. Use this field to override the default Subscriber List ID in \"Global Settings\" if present.",
+          "Mandatory": false,
+          "Name": "Subscriber list ID",
+          "SortOrder": 4,
+          "Validation": ""
+        },
+        {
+          "Key": "69410ad3-3d5b-421f-ba58-790365f9db67",
+          "Alias": "newsletterIntroduction",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Introduction",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "8ce279f5-52f3-492b-96fc-27ffde51cd05",
+          "Alias": "newsletterHeading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 0,
+          "Validation": ""
+        },
+        {
+          "Key": "f5b8222a-d09a-4d48-8d7b-ce3aee6b3ad9",
+          "Alias": "newsletterButtonText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Button text",
+          "SortOrder": 2,
+          "Validation": ""
+        },
+        {
+          "Key": "f70c8224-e57e-47c0-9d96-87518445b57d",
+          "Alias": "submissionMessage",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Submission message",
+          "SortOrder": 3,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/49167ca4d54d489783d7a60eefa06265",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/378e87fad53947cb9ebe9eb8ffc33548",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Newsletter Signup Pod",
+  "Alias": "USN_SWP_NewsletterSignupPod",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

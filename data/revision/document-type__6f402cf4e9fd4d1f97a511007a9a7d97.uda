@@ -1,0 +1,99 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document color-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "0d01092b-7f53-45e7-9266-fc622ed3c784",
+      "Name": "SEO",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "1fb92c98-f5ac-4ef4-b7a6-6d7a3f4c0048",
+          "Alias": "metaDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "Use this field to enter a description for your webpage.\n\nThis is the information that is displayed by search engines when your website appears in a search listing.\n\nTry and keep this below 155 characters.\n\nThis information will also be displayed on your website search results page.",
+          "Mandatory": false,
+          "Name": "Meta description",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "448ebc21-d32a-44a0-9789-2f57eaae722a",
+          "Alias": "openGraphTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Use this field to override the default Open Graph title of your webpage.\n\nThe default Open Graph title will be a combination of the current page node name and the website name defined in \"Global Settings\".",
+          "Mandatory": false,
+          "Name": "Open Graph title",
+          "SortOrder": 2,
+          "Validation": ""
+        },
+        {
+          "Key": "5631a807-a1c2-45af-80ee-8accb2ced296",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Use this field to override the default page title of your webpage.\n\nThe default page title will be a combination of the current page node name and the website name defined in \"Global Settings\".",
+          "Mandatory": false,
+          "Name": "Web page header title",
+          "SortOrder": 0,
+          "Validation": ""
+        },
+        {
+          "Key": "83df1485-97b8-40b7-a3fa-a2f7e36409a5",
+          "Alias": "openGraphDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "A detailed description of the piece of content, usually between 2 and 4 sentences.\n\nThis tag is technically optional, but can improve the rate at which links are read and shared.",
+          "Mandatory": false,
+          "Name": "Open Graph description",
+          "SortOrder": 3,
+          "Validation": ""
+        },
+        {
+          "Key": "fcfffb4e-625e-409a-b059-125cbe5ad80f",
+          "Alias": "openGraphImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "This is an image associated with your media.\n\nWe suggest that you use an image of at least 1200x630 pixels.\n\nIf nothing is uploaded here the \"Default Open Graph image\" from your \"Global Settings\" will be used.",
+          "Mandatory": false,
+          "Name": "Open Graph image",
+          "SortOrder": 4,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6f402cf4e9fd4d1f97a511007a9a7d97",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "SEO",
+  "Alias": "USN_CMP_SEO",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

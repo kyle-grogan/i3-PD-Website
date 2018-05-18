@@ -1,0 +1,381 @@
+{
+  "DefaultTemplate": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+  "AllowedTemplates": [
+    "umb://template/ffed2ce5fae94b36831781eae7cefee8"
+  ],
+  "Icon": "icon-link color-orange",
+  "Thumbnail": "usn_signpost.png",
+  "Description": "Use this item to configure your websites \"Navigation Menus\".",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/9518c33db9024b02bd12acc16ed97b20",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "0dda5a2f-64d2-4593-b3a1-c6e1b4e08998",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "5a3fcb68-cc1e-4d3e-aee1-2ea5379ff706",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Navigation<i class=\"icon sprTree icon-link color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>This item controls the navigation elements available on your website.</p>\n<p><strong>DO NOT</strong> delete this item.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "487b00a0-7ae5-4985-82a7-14781acb7307",
+      "Name": "Member",
+      "SortOrder": 6,
+      "PropertyTypes": [
+        {
+          "Key": "805be94b-c663-41c1-bb95-fea9532b4fb6",
+          "Alias": "loginPage",
+          "DataType": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+          "Description": "If nothing is selected the \"Members Navigation\" will be hidden.",
+          "Mandatory": false,
+          "Name": "Login page",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "9c025655-ab38-4239-a219-22e62b1a328b",
+          "Alias": "loggedInMembersNavigation",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Select the pages you would like to appear on the \"Logged in Members Navigation\" of your website.\n\nThe \"Caption\" field is used for your link text.",
+          "Mandatory": false,
+          "Name": "Logged in members navigation",
+          "SortOrder": 2,
+          "Validation": ""
+        },
+        {
+          "Key": "c9e4bc3e-0124-4e58-9a27-5c106b28daf5",
+          "Alias": "membersNavigationHeading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "This will override the default heading defined in the Dictionary Section of Umbraco.",
+          "Mandatory": false,
+          "Name": "Navigation heading",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "696ec858-6a69-4be6-b880-e991c776eb16",
+      "Name": "CTA",
+      "SortOrder": 7,
+      "PropertyTypes": [
+        {
+          "Key": "3dad2ab4-7ba1-4923-b797-7bea5ff977f5",
+          "Alias": "ctaLink",
+          "DataType": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+          "Description": "This link should be used for a main call to action. The link will appear in a prominent position on your website.\n\nThe \"Caption\" field is used for your link text.",
+          "Mandatory": false,
+          "Name": "Sitewide call to action link",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "97fd0b00-5b47-400c-9930-06f310bfc9ed",
+      "Name": "Social Links",
+      "SortOrder": 5,
+      "PropertyTypes": [
+        {
+          "Key": "13500552-8dde-478a-bf09-fe63a291a1d0",
+          "Alias": "linkedInLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "LinkedIn link",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "185f0525-9ca2-4b58-9db7-05fda2eb8de4",
+          "Alias": "vimeoLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Vimeo link",
+          "SortOrder": 9,
+          "Validation": null
+        },
+        {
+          "Key": "37a52c32-740e-4602-9c89-259ac437867f",
+          "Alias": "googleLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Google+ link",
+          "SortOrder": 4,
+          "Validation": null
+        },
+        {
+          "Key": "38259172-b83c-4fb5-8107-a7030bdb830a",
+          "Alias": "soundCloudLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "SoundCloud link",
+          "SortOrder": 12,
+          "Validation": null
+        },
+        {
+          "Key": "3a280d6e-8626-4537-a109-d46775aa0a65",
+          "Alias": "rssFeedLink",
+          "DataType": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "RSS Feed",
+          "SortOrder": 13,
+          "Validation": null
+        },
+        {
+          "Key": "690ba3c0-9886-4d1b-b700-f191121937fa",
+          "Alias": "facebookLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Facebook link",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "741cf471-0a98-4238-a706-4478944f3958",
+          "Alias": "flickrLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Flickr link",
+          "SortOrder": 7,
+          "Validation": null
+        },
+        {
+          "Key": "8587ef88-db9f-4012-a1aa-46c30f8e567f",
+          "Alias": "youTubeLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "YouTube link",
+          "SortOrder": 10,
+          "Validation": null
+        },
+        {
+          "Key": "96432168-d5bd-4013-ae6c-b008d0671136",
+          "Alias": "socialHeading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "aff8c7a3-fe2e-415a-aa6a-982a8e2ceadf",
+          "Alias": "pinterestLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Pinterest link",
+          "SortOrder": 5,
+          "Validation": null
+        },
+        {
+          "Key": "b0aa812c-74f1-4ea2-ae00-79111785c644",
+          "Alias": "behanceLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Behance link",
+          "SortOrder": 11,
+          "Validation": null
+        },
+        {
+          "Key": "d7608f75-4b63-40a6-b72a-ca9c64575d7f",
+          "Alias": "instagramLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Instagram link",
+          "SortOrder": 6,
+          "Validation": null
+        },
+        {
+          "Key": "d785c702-0775-4a43-96f9-56140b8866f1",
+          "Alias": "twitterLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Twitter link",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "e83a945b-6d46-49b5-844d-10944fea42dc",
+          "Alias": "tumblrLink",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Tumblr link",
+          "SortOrder": 8,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "9e22e7c5-310d-47de-bd8d-7602c93d97a6",
+      "Name": "Footer",
+      "SortOrder": 3,
+      "PropertyTypes": [
+        {
+          "Key": "1bfd7905-1af8-45e6-91b7-ec179d013800",
+          "Alias": "footerNavigation",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Select the links you would like to appear on the \"Footer Navigation\" of your website.\n\nThe \"Caption\" field is used for your link text.",
+          "Mandatory": false,
+          "Name": "Footer navigation",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "aef51fe8-32fd-4fae-915e-4f401b7979bd",
+      "Name": "Secondary",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "384039a5-14bb-460b-a11d-c9156523a18e",
+          "Alias": "secondaryNavigation",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Select the links you would like to appear on the \"Secondary Navigation\" of your website.\n\nThe \"Caption\" field is used for your link text.",
+          "Mandatory": false,
+          "Name": "Secondary navigation",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "ce04db0c-3218-405d-8520-59ff0853a60c",
+      "Name": "Quick Links",
+      "SortOrder": 4,
+      "PropertyTypes": [
+        {
+          "Key": "08780e6c-baa2-46fa-a813-7ab9ecefadf1",
+          "Alias": "footerQuickLinks",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Select the links you would like to appear on the \"Quick links\" section of your website.\n\nThe \"Caption\" field is used for your link text.",
+          "Mandatory": false,
+          "Name": "Quick links",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "e06ad18b-b5d1-4977-b61f-225f5c24ea7e",
+          "Alias": "footerQuickLinksHeading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "dce7202c-2237-4089-8c2e-a7018c6ef8ce",
+      "Name": "Main",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "3ab498e2-be25-4667-b1e8-f7e64a86b3cd",
+          "Alias": "displaySubPages",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": "Tick this box to include sub pages in the \"Main Navigation\".",
+          "Mandatory": false,
+          "Name": "Display sub pages",
+          "SortOrder": 1,
+          "Validation": ""
+        },
+        {
+          "Key": "ddbe6ea2-11e4-4814-8f13-920105d8aa02",
+          "Alias": "mainNavigation",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Select the links you would like to appear on the \"Main Navigation\" of your website.\n\nThe \"Caption\" field is used for your link text.",
+          "Mandatory": false,
+          "Name": "Main navigation",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [
+    {
+      "Key": "17227ec5-2218-4f11-ba08-d1f5fadacbdc",
+      "Alias": "disableDelete",
+      "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Description": "If \"Yes\" is selected, when a user attempts to delete this node they will be presented with a warning message indicating that this node cannot be deleted.",
+      "Mandatory": false,
+      "Name": "Disable delete",
+      "SortOrder": 0,
+      "Validation": null
+    }
+  ],
+  "Udi": "umb://document-type/47a4ae37a6184c15bc956ce5dc4d753a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/9518c33db9024b02bd12acc16ed97b20",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/ffed2ce5fae94b36831781eae7cefee8",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Navigation",
+  "Alias": "USNNavigation",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

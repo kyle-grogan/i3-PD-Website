@@ -1,0 +1,78 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-calendar-alt color-orange",
+  "Thumbnail": "usn_calendar.png",
+  "Description": "Use this item to create a new \"Blog Month Folder\".",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/9988c12a7dd2443d83ff3fcc5c782dd7",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "8093e045-66ed-4d2f-bf9d-ac07b6fcdae4",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "092550bc-450d-4644-864c-43f8efe524ce",
+          "Alias": "month",
+          "DataType": "umb://data-type/aa599dd728bc4317b7a0a6d589ecb5c0",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Month",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "31ff2447-7bf5-4d0f-8e5a-4e4dba316b94",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Blog Month Folder<i class=\"icon sprTree icon-calendar-alt color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>This folder is created automatically based on your blog posts.</p><p>Below this folder you will find your \"Blog Posts\".</p><p>\"Blog Posts\" must be added to the \"Blog Posts Folder\"\n above.</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b29c203a355c48cd9d81e875f956f634",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/aa599dd728bc4317b7a0a6d589ecb5c0",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/9988c12a7dd2443d83ff3fcc5c782dd7",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blog Month Folder",
+  "Alias": "USNBlogMonthFolder",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

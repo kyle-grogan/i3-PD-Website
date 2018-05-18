@@ -1,0 +1,104 @@
+{
+  "DefaultTemplate": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+  "AllowedTemplates": [
+    "umb://template/eea7308a03a242da8019ec2c5b43e670"
+  ],
+  "Icon": "icon-list color-orange",
+  "Thumbnail": "usn_folder_accordion.png",
+  "Description": "Use this item to add a new \"Accordion\" or \"Tabbed\" section to your page.",
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+  "AllowedChildContentTypes": [
+    "umb://document-type/c4d8a432ff0b42c6ac08890be9a1f8d2"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+    "umb://document-type/2d7a4f0701d943339ff6dce6b6891714",
+    "umb://document-type/da03fa1abe47411da71c99dfd5bed690"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "12276f2b-d279-4369-8043-940e301e1e14",
+      "Name": "Instructions",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "4f30d92e-bbd0-43ab-970e-b009dea3bdfa",
+          "Alias": "instructions",
+          "DataType": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+          "Description": "<div class=\"panel-heading\"><h3 class=\"panel-title\">Accordion/Tabbed Section<i class=\"icon sprTree icon-list color-orange pull-right\"></i></h3></div><div class=\"panel-body\"><p>The node name you enter above is for your reference only and will not appear on the website.</p><p>Add multiple \"Accordion/Tab\" via the \"Accordion/Tab\" tab. You must add at least one \"Accordion/Tab\" for this section to be displayed.</p><p>The sort order of your \"Accordion/Tab\" directly relates to the order your \"Accordion/Tab\" will be displayed on this page. Use  <strong>Actions > Sort</strong> to reorder your \"Accordion/Tab\".</p></div>",
+          "Mandatory": false,
+          "Name": "Instructions",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    },
+    {
+      "Key": "92bf6f53-d4ef-4bb9-ab41-606cfd8d76bd",
+      "Name": "Component Settings",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "2136d69b-dddc-4ddb-a1c1-32f10de1f084",
+          "Alias": "repeaterStyle",
+          "DataType": "umb://data-type/1b59d7c490434defa07982079349e394",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Layout",
+          "SortOrder": 0,
+          "Validation": ""
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/32704368345246d098395a91adec1088",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/1b59d7c490434defa07982079349e394",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/84a4dd46ed68409b82082ff4918d21cb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1e391943c4f1458cbd2943e057620e87",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/2d7a4f0701d943339ff6dce6b6891714",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/c4d8a432ff0b42c6ac08890be9a1f8d2",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/da03fa1abe47411da71c99dfd5bed690",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/eea7308a03a242da8019ec2c5b43e670",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Accordion/Tabbed Section",
+  "Alias": "USN_SC_AccordionTabSection_AN",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}

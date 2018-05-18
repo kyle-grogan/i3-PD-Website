@@ -1,0 +1,229 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document color-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "18309304-49ae-45f6-8426-973e3c3e6a5a",
+      "Name": "Header Section",
+      "SortOrder": 7,
+      "PropertyTypes": [
+        {
+          "Key": "0be267da-7277-4daa-bd44-3c8d0f2e33a1",
+          "Alias": "headerBackgroundColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": "Color selected will decide what color is used for any text that appears over the background. \n\nIf the banner contains an image, use the color that works best for the text over the image.",
+          "Mandatory": false,
+          "Name": "Background color",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "0d133a40-af3e-4781-bb04-5e7ef621f0ae",
+          "Alias": "headerImageAltText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Image alt text",
+          "SortOrder": 10,
+          "Validation": null
+        },
+        {
+          "Key": "28e837f8-fb35-4c76-8958-92c0ca082e67",
+          "Alias": "addColorOverlay",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": "The color overlay added to your banner will be decided based on the background color selected.",
+          "Mandatory": false,
+          "Name": "Add color overlay",
+          "SortOrder": 5,
+          "Validation": null
+        },
+        {
+          "Key": "48fef29a-25dd-4ecb-bcc9-ef9349a77443",
+          "Alias": "headerTextAlignment",
+          "DataType": "umb://data-type/d9d02e516287496db16f349c69e62a1e",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Text alignment",
+          "SortOrder": 4,
+          "Validation": null
+        },
+        {
+          "Key": "635140bd-b24f-425c-bdf6-395af040835c",
+          "Alias": "headerAnimate",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Animate",
+          "SortOrder": 8,
+          "Validation": null
+        },
+        {
+          "Key": "783f7887-52f3-4dfe-9913-bea9e1db9f1c",
+          "Alias": "headerParallax",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Parallax",
+          "SortOrder": 7,
+          "Validation": null
+        },
+        {
+          "Key": "793e3a8c-eacc-460e-ae87-f035ea3734ee",
+          "Alias": "headerImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "For all Parallax and Takeover banners, your image will be cropped to 1500px by 1100px.\n\nIf you choose a 'Medium' banner style without the Parallax effect your image will be cropped to 1500px by 550px.\n\nIf you choose a 'Short' banner style without the Parallax effect your image will be cropped to 1500px by 400px.\n\nFocal point of the image is defined within your \"Media\" section.",
+          "Mandatory": false,
+          "Name": "Image",
+          "SortOrder": 9,
+          "Validation": null
+        },
+        {
+          "Key": "93ad07ca-909a-4d4c-8ac0-f8b36e8d040d",
+          "Alias": "headerButtonColor",
+          "DataType": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Button color",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "9bf6ef0b-8d4e-4e36-970a-bbb1afb989dd",
+          "Alias": "headerLink",
+          "DataType": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+          "Description": "The \"Caption\" field will be used for your link text.",
+          "Mandatory": false,
+          "Name": "Link",
+          "SortOrder": 14,
+          "Validation": null
+        },
+        {
+          "Key": "a98eaf36-427d-4f37-b277-8577542616f2",
+          "Alias": "headerScrollPrompt",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Scroll prompt",
+          "SortOrder": 6,
+          "Validation": null
+        },
+        {
+          "Key": "adeced65-1664-479c-a835-699fccf3eec7",
+          "Alias": "headerHeading",
+          "DataType": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+          "Description": "Heading style chosen will not affect font size. This option is purely for setting your heading hierarchy for SEO purposes.",
+          "Mandatory": false,
+          "Name": "Heading",
+          "SortOrder": 12,
+          "Validation": null
+        },
+        {
+          "Key": "be904236-3aba-4a28-b65a-cba927ed57eb",
+          "Alias": "headerText",
+          "DataType": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Text",
+          "SortOrder": 13,
+          "Validation": null
+        },
+        {
+          "Key": "c2dc3dce-4f03-4ac2-bab1-529d40f68b1d",
+          "Alias": "video",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "MP4 format only. The image above will be displayed first before the video is downloaded.\n\nIt is recommended to use the smallest file size possible to enable quick downloads.",
+          "Mandatory": false,
+          "Name": "Video",
+          "SortOrder": 11,
+          "Validation": null
+        },
+        {
+          "Key": "dd2f3fe1-a625-45c7-83c5-344b8ec0d945",
+          "Alias": "displayHeaderImageSection",
+          "DataType": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Display header image section",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "e64695f7-2cca-4185-9b8d-52fad4fb5a7c",
+          "Alias": "headerStyle",
+          "DataType": "umb://data-type/9f07a4efe09e42b1826f2a5da5944b53",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Header style",
+          "SortOrder": 3,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/197bfacc5768465e9605b5ca99c0f09b",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2d5d436789f94e289e45bde3e16ab999",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3629487f286f44319cea4f3d000e8498",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/9f07a4efe09e42b1826f2a5da5944b53",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d6c4e9affa7e42268ec31ce5ebb062d6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d9d02e516287496db16f349c69e62a1e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e8d9b73c505f410b8509dead5c981d8a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/305ed127d3544d7db3ea1b88b8b87475",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Standard Page Header Section",
+  "Alias": "USN_CMP_SP_HeaderSection",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}
