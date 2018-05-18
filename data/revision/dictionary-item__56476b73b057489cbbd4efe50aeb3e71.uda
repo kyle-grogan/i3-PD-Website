@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Form Email Address Validation",
+  "ParentId": "07fc4ae0-a519-4530-bb86-fda46f7b396b",
+  "Translations": [
+    {
+      "Key": "56476b73-b057-489c-bbd4-efe50aeb3e71",
+      "Value": "Please enter a valid Email address",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/56476b73b057489cbbd4efe50aeb3e71",
+  "Udi": "umb://dictionary-item/56476b73b057489cbbd4efe50aeb3e71",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/07fc4ae0a5194530bb86fda46f7b396b",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
