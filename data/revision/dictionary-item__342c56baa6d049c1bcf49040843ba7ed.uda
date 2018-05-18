@@ -1,0 +1,17 @@
+{
+  "ItemKey": "USN Blog",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "342c56ba-a6d0-49c1-bcf4-9040843ba7ed",
+      "Value": "THIS IS JUST A CONTAINER TO MANAGE RELATED DICTIONARY ITEMS",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/342c56baa6d049c1bcf49040843ba7ed",
+  "Udi": "umb://dictionary-item/342c56baa6d049c1bcf49040843ba7ed",
+  "Dependencies": [],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
