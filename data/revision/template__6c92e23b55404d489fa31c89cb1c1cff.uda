@@ -1,8 +1,13 @@
 {
   "File": "umb://template-file/USNSearchResultsPage.cshtml",
-  "Master": null,
+  "Master": "umb://template/e7f5b4083b324f799bbe2be4ab23feec",
   "Udi": "umb://template/6c92e23b55404d489fa31c89cb1c1cff",
   "Dependencies": [
+    {
+      "Udi": "umb://template/e7f5b4083b324f799bbe2be4ab23feec",
+      "Ordering": true,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template-file/USNSearchResultsPage.cshtml",
       "Ordering": true,
