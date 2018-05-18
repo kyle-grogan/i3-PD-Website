@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Login Form Login Error",
+  "ParentId": "697e8518-ab5e-4a0b-8f8f-4a9ed2188023",
+  "Translations": [
+    {
+      "Key": "ba6f2c4b-2fbc-45d0-914a-7055974f1805",
+      "Value": "Your login details are not valid. Please try again.",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/ba6f2c4b2fbc45d0914a7055974f1805",
+  "Udi": "umb://dictionary-item/ba6f2c4b2fbc45d0914a7055974f1805",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/697e8518ab5e4a0b8f8f4a9ed2188023",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
