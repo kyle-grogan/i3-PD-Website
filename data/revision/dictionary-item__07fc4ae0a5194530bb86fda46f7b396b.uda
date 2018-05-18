@@ -1,0 +1,17 @@
+{
+  "ItemKey": "USN Form",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "07fc4ae0-a519-4530-bb86-fda46f7b396b",
+      "Value": "THIS IS JUST A CONTAINER TO MANAGE RELATED DICTIONARY ITEMS",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/07fc4ae0a5194530bb86fda46f7b396b",
+  "Udi": "umb://dictionary-item/07fc4ae0a5194530bb86fda46f7b396b",
+  "Dependencies": [],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
