@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Banner Component Scroll Prompt",
+  "ParentId": "c8c89805-39c0-4621-b6d7-c67f2986e265",
+  "Translations": [
+    {
+      "Key": "e63b5822-8796-466b-89a8-69c1650676a1",
+      "Value": "Scroll",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/e63b58228796466b89a869c1650676a1",
+  "Udi": "umb://dictionary-item/e63b58228796466b89a869c1650676a1",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/c8c8980539c04621b6d7c67f2986e265",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
