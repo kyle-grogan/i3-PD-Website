@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Form Password Validation",
+  "ParentId": "07fc4ae0-a519-4530-bb86-fda46f7b396b",
+  "Translations": [
+    {
+      "Key": "946e030a-308d-4997-8443-0e9e496bd34b",
+      "Value": "The 'Password' field is required",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/946e030a308d499784430e9e496bd34b",
+  "Udi": "umb://dictionary-item/946e030a308d499784430e9e496bd34b",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/07fc4ae0a5194530bb86fda46f7b396b",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
