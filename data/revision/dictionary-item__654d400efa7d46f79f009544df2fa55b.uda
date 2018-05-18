@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Search Form Placeholder",
+  "ParentId": "6e7f8839-eb59-49e0-8ee5-bac528c6cb77",
+  "Translations": [
+    {
+      "Key": "654d400e-fa7d-46f7-9f00-9544df2fa55b",
+      "Value": "Search the site",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/654d400efa7d46f79f009544df2fa55b",
+  "Udi": "umb://dictionary-item/654d400efa7d46f79f009544df2fa55b",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/6e7f8839eb5949e08ee5bac528c6cb77",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
