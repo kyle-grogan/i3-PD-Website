@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Members Navigation Logout",
+  "ParentId": "2ce4c4e0-01ad-41b4-9ffa-ce18bd17c938",
+  "Translations": [
+    {
+      "Key": "3e7bccbd-20bd-4dc3-a21c-5b7fa44fdecd",
+      "Value": "Logout",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/3e7bccbd20bd4dc3a21c5b7fa44fdecd",
+  "Udi": "umb://dictionary-item/3e7bccbd20bd4dc3a21c5b7fa44fdecd",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/2ce4c4e001ad41b49fface18bd17c938",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
