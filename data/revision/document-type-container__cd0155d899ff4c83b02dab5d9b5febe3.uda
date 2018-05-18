@@ -1,0 +1,10 @@
+{
+  "ContainedObjectType": "a2cb7800-f571-4787-9638-bc48539a0efb",
+  "Parent": null,
+  "Udi": "umb://document-type-container/cd0155d899ff4c83b02dab5d9b5febe3",
+  "Dependencies": [],
+  "Name": "Standard Page Components",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContainerArtifact",
+  "__version": "2.0.14"
+}
