@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Resources Component External Web Link",
+  "ParentId": "4667ac7c-63b1-48c5-b3ae-21534c96a8d0",
+  "Translations": [
+    {
+      "Key": "4520b756-3052-4013-8aaa-f6b0971c0fe0",
+      "Value": "External web link",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/4520b756305240138aaaf6b0971c0fe0",
+  "Udi": "umb://dictionary-item/4520b756305240138aaaf6b0971c0fe0",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/4667ac7c63b148c5b3ae21534c96a8d0",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
