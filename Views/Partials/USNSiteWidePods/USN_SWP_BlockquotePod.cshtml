@@ -1,0 +1,19 @@
+﻿@inherits UmbracoViewPage<Usn_Swp_BlockquotePod>
+
+@using USNStarterKit.USNHelpers;
+
+@{
+    <div class="item blockquote-pod">
+	<div class="inner c3-bg c5-text">
+        <blockquote>
+            <p>@Html.Raw(umbraco.library.ReplaceLineBreaks(Model.Quote))</p>
+            @if (Model.Cite.HasValue())
+            {
+                <cite>
+                    <span class="who">@Model.Cite</span>
+                </cite>
+            }
+        </blockquote>
+    </div>
+    </div>
+}
