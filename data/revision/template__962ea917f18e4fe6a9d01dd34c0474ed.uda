@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/USNLoginPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/962ea917f18e4fe6a9d01dd34c0474ed",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/USNLoginPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "USN Login Page",
+  "Alias": "USNLoginPage",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.14"
+}

@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/USNStandardPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/115bd90f36cb4359837c8ccbee16caf9",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/USNStandardPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "USN Standard Page",
+  "Alias": "USNStandardPage",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.14"
+}
