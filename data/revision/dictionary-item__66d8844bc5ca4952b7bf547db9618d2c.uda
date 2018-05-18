@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Contact Email",
+  "ParentId": "e3bf041f-71fa-4c53-ab95-e5842b8412b7",
+  "Translations": [
+    {
+      "Key": "66d8844b-c5ca-4952-b7bf-547db9618d2c",
+      "Value": "Email.",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/66d8844bc5ca4952b7bf547db9618d2c",
+  "Udi": "umb://dictionary-item/66d8844bc5ca4952b7bf547db9618d2c",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/e3bf041f71fa4c53ab95e5842b8412b7",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
