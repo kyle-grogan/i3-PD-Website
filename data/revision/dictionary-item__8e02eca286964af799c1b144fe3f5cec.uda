@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Blog Meta Comments",
+  "ParentId": "342c56ba-a6d0-49c1-bcf4-9040843ba7ed",
+  "Translations": [
+    {
+      "Key": "8e02eca2-8696-4af7-99c1-b144fe3f5cec",
+      "Value": "comments",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/8e02eca286964af799c1b144fe3f5cec",
+  "Udi": "umb://dictionary-item/8e02eca286964af799c1b144fe3f5cec",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/342c56baa6d049c1bcf49040843ba7ed",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
