@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Blog RSS Continue Reading",
+  "ParentId": "342c56ba-a6d0-49c1-bcf4-9040843ba7ed",
+  "Translations": [
+    {
+      "Key": "9395b534-9270-49fa-86ab-97d69b069ae1",
+      "Value": "Continue reading",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/9395b534927049fa86ab97d69b069ae1",
+  "Udi": "umb://dictionary-item/9395b534927049fa86ab97d69b069ae1",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/342c56baa6d049c1bcf49040843ba7ed",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
