@@ -1,0 +1,23 @@
+{
+  "ItemKey": "USN Resources Component File Size",
+  "ParentId": "4667ac7c-63b1-48c5-b3ae-21534c96a8d0",
+  "Translations": [
+    {
+      "Key": "be36306d-73ac-4abb-9a2f-66109cfa6de7",
+      "Value": "Download - File size",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/be36306d73ac4abb9a2f66109cfa6de7",
+  "Udi": "umb://dictionary-item/be36306d73ac4abb9a2f66109cfa6de7",
+  "Dependencies": [
+    {
+      "Udi": "umb://dictionary-item/4667ac7c63b148c5b3ae21534c96a8d0",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
