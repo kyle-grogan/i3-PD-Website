@@ -1,0 +1,17 @@
+{
+  "ItemKey": "USN Listing",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "8c9eb8d2-c2e1-49dc-908e-5f17ef8fe25d",
+      "Value": "THIS IS JUST A CONTAINER TO MANAGE RELATED DICTIONARY ITEMS",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Name": "umb://dictionary-item/8c9eb8d2c2e149dc908e5f17ef8fe25d",
+  "Udi": "umb://dictionary-item/8c9eb8d2c2e149dc908e5f17ef8fe25d",
+  "Dependencies": [],
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DictionaryItemArtifact",
+  "__version": "2.0.14"
+}
