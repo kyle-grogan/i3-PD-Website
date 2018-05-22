@@ -1,0 +1,15 @@
+{
+  "EditorAlias": "Umbraco.DateTime",
+  "DatabaseType": 3,
+  "PreValues": {
+    "format": "YYYY-MM-DD HH:mm:ss",
+    "offsetTime": "0"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/6eebdcf4867a405cb655a5f9b0e2a229",
+  "Dependencies": [],
+  "Name": "Home Page - Welcome Text - DateTime",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.14"
+}
