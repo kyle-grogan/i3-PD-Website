@@ -1,0 +1,51 @@
+{
+  "DefaultTemplate": "umb://template/38f409235f6f4808b0280ba8d139ea7f",
+  "AllowedTemplates": [
+    "umb://template/38f409235f6f4808b0280ba8d139ea7f"
+  ],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": "The home page of the website",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "fe29afad-872f-47a0-a0b8-c762db76c568",
+      "Name": "Home",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "0cb41fb3-dab2-4a3c-875d-c95152014d9b",
+          "Alias": "welcomeText",
+          "DataType": "umb://data-type/e4d8e9dda164406bb2f654517b64bf7e",
+          "Description": "Write a nice introduction text so the visitors feel welcome",
+          "Mandatory": false,
+          "Name": "Welcome Text",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/8e0a93f55288423ab9f233c24b0f80fe",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/e4d8e9dda164406bb2f654517b64bf7e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/38f409235f6f4808b0280ba8d139ea7f",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}
