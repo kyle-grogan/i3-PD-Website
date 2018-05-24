@@ -6,7 +6,7 @@
   "Icon": "icon-document",
   "Thumbnail": "folder.png",
   "Description": "This is the home page of the website",
-  "AllowedAtRoot": false,
+  "AllowedAtRoot": true,
   "IsContainer": false,
   "Parent": null,
   "AllowedChildContentTypes": [],
