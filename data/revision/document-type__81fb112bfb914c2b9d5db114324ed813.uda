@@ -1,0 +1,51 @@
+{
+  "DefaultTemplate": "umb://template/38f409235f6f4808b0280ba8d139ea7f",
+  "AllowedTemplates": [
+    "umb://template/38f409235f6f4808b0280ba8d139ea7f"
+  ],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": "This is the home page of the website",
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "744bec6a-4986-448f-a43f-5ec8006ccdcc",
+      "Name": "Home",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "eb2db8ef-e8be-4e7f-9e42-decfc844eaaa",
+          "Alias": "welcomeText",
+          "DataType": "umb://data-type/d8b70bd47b9e4ed3b899d9ac51316fda",
+          "Description": "Welcoming intro text",
+          "Mandatory": false,
+          "Name": "Welcome Text",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/81fb112bfb914c2b9d5db114324ed813",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/d8b70bd47b9e4ed3b899d9ac51316fda",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/38f409235f6f4808b0280ba8d139ea7f",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.14"
+}
