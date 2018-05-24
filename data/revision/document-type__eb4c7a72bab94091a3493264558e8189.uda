@@ -6,7 +6,7 @@
   "Icon": "icon-document",
   "Thumbnail": "folder.png",
   "Description": null,
-  "AllowedAtRoot": false,
+  "AllowedAtRoot": true,
   "IsContainer": false,
   "Parent": null,
   "AllowedChildContentTypes": [],
@@ -44,7 +44,7 @@
       "Mode": 0
     }
   ],
-  "Name": "Home Page",
+  "Name": "Welcome",
   "Alias": "homePage",
   "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
   "__version": "2.0.14"
