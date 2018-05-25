@@ -96,44 +96,44 @@
 	.c2-bg,
 	.cookie-notice,
 	.modal-backdrop, .modal-backdrop.in {
-		background-color:#000000; background-color:rgba(0,0,0,1);
+		background-color:#101212; background-color:rgba(16,18,18,1);
 		}
 		.c2-bg.bg-perc_90 {
-			background-color:rgba(0,0,0,0.9);
+			background-color:rgba(16,18,18,0.9);
 			}
 		.c2-bg.bg-perc_80,
 		html.no-touch .apc.pod-windows .item a.info.c2-bg:hover::before {
-			background-color:rgba(0,0,0,0.8);
+			background-color:rgba(16,18,18,0.8);
 			}
 		.c2-bg.bg-perc_70 {
-			background-color:rgba(0,0,0,0.7);
+			background-color:rgba(16,18,18,0.7);
 			}
 		.c2-bg.bg-perc_60 {
-			background-color:rgba(0,0,0,0.6);
+			background-color:rgba(16,18,18,0.6);
 			}
 		.c2-bg.bg-perc_50 {
-			background-color:rgba(0,0,0,0.5);
+			background-color:rgba(16,18,18,0.5);
 			}
 		.apc.banner .item.overlay.c2-bg::before,
 		.apc.pod-windows .item.overlay .info.c2-bg::before {
 		
-			background: rgb(0,0,0,0.5);
-			background: -moz-linear-gradient(45deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.75) 100%);
-			background: -webkit-linear-gradient(45deg, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
-			background: linear-gradient(45deg, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+			background: rgb(16,18,18,0.5);
+			background: -moz-linear-gradient(45deg, rgba(16,18,18,0.25) 0%, rgba(16,18,18,0.75) 100%);
+			background: -webkit-linear-gradient(45deg, rgba(16,18,18,0.25) 0%,rgba(16,18,18,0.75) 100%);
+			background: linear-gradient(45deg, rgba(16,18,18,0.25) 0%,rgba(16,18,18,0.75) 100%);
 			
 			}
 		.c2-bg.bg-perc_40 {
-			background-color:rgba(0,0,0,0.4);
+			background-color:rgba(16,18,18,0.4);
 			}
 		.c2-bg.bg-perc_30 {
-			background-color:rgba(0,0,0,0.3);
+			background-color:rgba(16,18,18,0.3);
 			}
 		.c2-bg.bg-perc_20 {
-			background-color:rgba(0,0,0,0.2);
+			background-color:rgba(16,18,18,0.2);
 			}
 		.c2-bg.bg-perc_10 {
-			background-color:rgba(0,0,0,0.1);
+			background-color:rgba(16,18,18,0.1);
 			}
 		
 	.c3-bg,
@@ -362,34 +362,34 @@
 			
 	.c2-text,
 	.c2-text:hover, .c2-text:focus, .c2-text:active {
-		color:#000000; color:rgba(0,0,0,1);
+		color:#101212; color:rgba(16,18,18,1);
 		}
 		.c2-text.text-perc_90 {
-			color:rgba(0,0,0,0.9);
+			color:rgba(16,18,18,0.9);
 			}
 		.c2-text.text-perc_80 {
-			color:rgba(0,0,0,0.8);
+			color:rgba(16,18,18,0.8);
 			}
 		.c2-text.text-perc_70 {
-			color:rgba(0,0,0,0.7);
+			color:rgba(16,18,18,0.7);
 			}
 		.c2-text.text-perc_60 {
-			color:rgba(0,0,0,0.6);
+			color:rgba(16,18,18,0.6);
 			}
 		.c2-text.text-perc_50 {
-			color:rgba(0,0,0,0.5);
+			color:rgba(16,18,18,0.5);
 			}
 		.c2-text.text-perc_40 {
-			color:rgba(0,0,0,0.4);
+			color:rgba(16,18,18,0.4);
 			}
 		.c2-text.text-perc_30 {
-			color:rgba(0,0,0,0.3);
+			color:rgba(16,18,18,0.3);
 			}
 		.c2-text.text-perc_20 {
-			color:rgba(0,0,0,0.2);
+			color:rgba(16,18,18,0.2);
 			}
 		.c2-text.text-perc_10 {
-			color:rgba(0,0,0,0.1);
+			color:rgba(16,18,18,0.1);
 			}
 			
 	.c3-text,
@@ -563,34 +563,34 @@
 			}
 			
 	.c2-borders {
-		border-color:#000000; border-color:rgba(0,0,0,1);
+		border-color:#101212; border-color:rgba(16,18,18,1);
 		}
 		.c2-borders.borders-perc_90 {
-			border-color:rgba(0,0,0,0.9);
+			border-color:rgba(16,18,18,0.9);
 			}
 		.c2-borders.borders-perc_80 {
-			border-color:rgba(0,0,0,0.8);
+			border-color:rgba(16,18,18,0.8);
 			}
 		.c2-borders.borders-perc_70 {
-			border-color:rgba(0,0,0,0.7);
+			border-color:rgba(16,18,18,0.7);
 			}
 		.c2-borders.borders-perc_60 {
-			border-color:rgba(0,0,0,0.6);
+			border-color:rgba(16,18,18,0.6);
 			}
 		.c2-borders.borders-perc_50 {
-			border-color:rgba(0,0,0,0.5);
+			border-color:rgba(16,18,18,0.5);
 			}
 		.c2-borders.borders-perc_40 {
-			border-color:rgba(0,0,0,0.4);
+			border-color:rgba(16,18,18,0.4);
 			}
 		.c2-borders.borders-perc_30 {
-			border-color:rgba(0,0,0,0.3);
+			border-color:rgba(16,18,18,0.3);
 			}
 		.c2-borders.borders-perc_20 {
-			border-color:rgba(0,0,0,0.2);
+			border-color:rgba(16,18,18,0.2);
 			}
 		.c2-borders.borders-perc_10 {
-			border-color:rgba(0,0,0,0.1);
+			border-color:rgba(16,18,18,0.1);
 			}
 			
 	.c3-borders {
@@ -736,10 +736,10 @@
 		}
 		
 	html.no-touch .btn.c2-bg:hover, .btn.c2-bg:active, .btn.c2-bg:focus {
-		background-color:rgba(0,0,0,1);
+		background-color:rgba(16,18,18,1);
 		}
 	html.no-touch .btn.c2-bg:hover::before {
-		border-color:rgba(0,0,0,1);
+		border-color:rgba(16,18,18,1);
 		}
 		
 	html.no-touch .btn.c3-bg:hover, .btn.c3-bg:active, .btn.c3-bg:focus {
