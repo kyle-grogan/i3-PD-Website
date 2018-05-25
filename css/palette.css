@@ -46,13 +46,13 @@
 	
 	.c1-bg,
 	#top-link-block a {
-		background-color:#EC6425; background-color:rgba(236,100,37,1);
+		background-color:#ec6425; background-color:rgba(236,100,37,1);
 		
 		background: rgb(236,100,37);
 		background: -moz-linear-gradient(45deg, rgba(236,100,37,1) 0%, rgba(236,100,37,1) 100%);
 		background: -webkit-linear-gradient(45deg, rgba(236,100,37,1) 0%,rgba(236,100,37,1) 100%);
 		background: linear-gradient(45deg, rgba(236,100,37,1) 0%,rgba(236,100,37,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EC6425', endColorstr='#EC6425',GradientType=1 );
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec6425', endColorstr='#ec6425',GradientType=1 );
 		
 		}
 		.c1-bg.bg-perc_90 {
@@ -317,7 +317,7 @@
 		}
 
 	a, a:hover, a:focus, a:active {
-		color:#EC6425; color:rgba(236,100,37,1);
+		color:#ec6425; color:rgba(236,100,37,1);
 		}
 	.heading, h1, h2, h3, h4, h5, h6, .tables .head {
 		color:#2c2d2f; color:rgba(44,45,47,1);
@@ -330,7 +330,7 @@
 	.c1-text,
 	.c1-text:hover, .c1-text:focus, .c1-text:active,
 	blockquote::before, blockquote::after {
-		color:#EC6425; color:rgba(236,100,37,1);
+		color:#ec6425; color:rgba(236,100,37,1);
 		}
 		.c1-text.text-perc_90 {
 			color:rgba(236,100,37,0.9);
@@ -532,7 +532,7 @@
 	
 	.c1-borders,
 	#top-link-block a::before {
-		border-color:#EC6425; border-color:rgba(236,100,37,1);
+		border-color:#ec6425; border-color:rgba(236,100,37,1);
 		}
 		.c1-borders.borders-perc_90 {
 			border-color:rgba(236,100,37,0.9);
