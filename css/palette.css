@@ -18,21 +18,23 @@
 	
 	COLOURS 
 	
-	c1	#8bc435		139,196,53
-	c2	#000000		0,0,0
-	c3	#2c2d2f		44,45,47
-	c4	#f4f4f4		244,244,244
-	c5 	#ffffff		255,255,255
-	c6  #e1e2e5		225,226,229
+		OLD	
+			c1	#8bc435		139,196,53
+			c2	#000000		0,0,0
+			c3	#2c2d2f		44,45,47
+			c4	#f4f4f4		244,244,244
+			c5 	#ffffff		255,255,255
+			c6  #e1e2e5		225,226,229
 
-	c1  #101212		rgb(16,18,18)		BLACK
-	c2  #EC6425		rgb(236,100,37)		RED
-	c3  #46BEA8		rgb(70,190,168)		L. BLUE
-	c4	#E3DED4		rgb(227,222,212)	COOL GRAY
-	c5  #3A342E		rgb(58,52,46)		D. PURPLE
-	c6  #6F6862		rgb(111,104,98)		PURPLE
-	c7  #B49774		rgb(180,151,116)	L. PURPLE
-	c8  #FBB317		rgb(251,179,23)		ORANGE
+		NEW
+			c1  #101212		rgb(16,18,18)		BLACK
+			c2  #EC6425		rgb(236,100,37)		RED
+			c3  #46BEA8		rgb(70,190,168)		L. BLUE
+			c4	#E3DED4		rgb(227,222,212)	COOL GRAY
+			c5  #3A342E		rgb(58,52,46)		D. PURPLE
+			c6  #6F6862		rgb(111,104,98)		PURPLE
+			c7  #B49774		rgb(180,151,116)	L. PURPLE
+			c8  #FBB317		rgb(251,179,23)		ORANGE
 	
 	
 	
