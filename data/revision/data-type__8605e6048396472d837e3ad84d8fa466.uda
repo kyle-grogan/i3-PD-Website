@@ -2,12 +2,13 @@
   "EditorAlias": "Umbraco.ColorPickerAlias",
   "DatabaseType": 1,
   "PreValues": {
-    "0": "8bc435",
-    "1": "000000",
-    "2": "2c2d2f",
-    "3": "f4f4f4",
-    "4": "ffffff",
-    "5": "e1e2e5"
+    "0": "000000",
+    "1": "2c2d2f",
+    "2": "f4f4f4",
+    "3": "ffffff",
+    "4": "e1e2e5",
+    "5": "ec6425",
+    "useLabel": "0"
   },
   "Parent": null,
   "Udi": "umb://data-type/8605e6048396472d837e3ad84d8fa466",
