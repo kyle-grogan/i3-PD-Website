@@ -209,9 +209,9 @@
 		opacity:1;
 		}
 	#top-link-block a {
-		width:50px; height:50px;
+		width:40px; height:40px;
 		font-size:15px;
-		border-radius:40%;
+		border-radius:35%;
 		}	
 	#top-link-block a::before { 
 		content:"";
