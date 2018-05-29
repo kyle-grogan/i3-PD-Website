@@ -12,11 +12,11 @@
         int smallWidth = originalWidth;
         int smallHeight = originalHeight;
 
-        if (originalHeight > 100)
+        if (originalHeight > 75)
         {
             //get new width
-            smallWidth = (100* originalWidth) / originalHeight;
-            smallHeight = 100;
+            smallWidth = (75 * originalWidth) / originalHeight;
+            smallHeight = 75;
         }
 
         string smallLogo = websiteLogo.Url + "?width=" + smallWidth + "&height=" + smallHeight;
