@@ -361,13 +361,13 @@
 		}
 	footer, footer .heading, footer a, 
 	footer a:focus, footer a:active {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	footer a { 
 		font-weight:400;
 		}	
 	html.no-touch footer a:hover {
-		color:rgba(255,255,255,0.6);
+		color:rgba(58,52,46,0.6);
 		text-decoration:none;
 		}
 		
@@ -476,7 +476,7 @@
 		display:block;
 		width:30px; height:4px; 
 		position:absolute; right:15px;
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		
 		-webkit-opacity:1;
 		-moz-opacity:1;
@@ -623,14 +623,14 @@
 		margin:0;
 		padding-top:22px;
 		text-align:center;
-		color:#ffffff;
+		color:#3a342e;
 		}
 	.navigation nav.main ul li span i {
 		z-index:99;
 		}
 	html.touch .navigation nav.main ul li span i {
 		z-index:101;
-		background-color:rgba(255,255,255,0.1);
+		background-color:rgba(58,52,46,0.1);
 		}
 	.navigation nav.main ul li a {
 		display:block;
@@ -639,7 +639,7 @@
 		position:relative;
 		height:60px;
 		padding:22px 15px;
-		color:#ffffff;
+		color:#3a342e;
 		}
 	.navigation nav.main ul li span a {
 		z-index:101;
@@ -662,12 +662,12 @@
 	.navigation nav.main > ul > li > span.active > a,
 	html.touch .navigation nav.main > ul > li.open > span > a,
 	html.no-touch .navigation nav.main > ul > li:hover > span > a {
-		color:#ffffff;
+		color:#3a342e;
 		}
 		
 	.navigation nav.main ul li ul li span > a {
 		display:block;
-		color:#ffffff;
+		color:#3a342e;
 		padding:15px;
 		}
 		
@@ -683,10 +683,10 @@
 	@media (min-width:0) and (max-width:991px) { 
 		
 	.navigation nav.main {
-		border-width:0 0 1px; border-style:solid; border-color:rgba(255,255,255,0.2);
+		border-width:0 0 1px; border-style:solid; border-color:rgba(58,52,46,0.2);
 		}
 	.navigation nav.main ul li {
-		border-width:1px 0 0; border-style:solid; border-color:rgba(255,255,255,0.2);
+		border-width:1px 0 0; border-style:solid; border-color:rgba(58,52,46,0.2);
 		}
 	.navigation nav.main ul li.has-child ul {
 		display:none;
@@ -708,10 +708,10 @@
 		
 	.navigation nav.main ul li span i {
 		z-index:101;
-		background-color:rgba(255,255,255,0.1);
+		background-color:rgba(58,52,46,0.1);
 		}
 	.navigation nav.main ul li span i { 
-		border-width:0 0 0 1px; border-style:solid; border-color:rgba(255,255,255,0.2);
+		border-width:0 0 0 1px; border-style:solid; border-color:rgba(58,52,46,0.2);
 		}
 	.navigation nav.main ul li.has-child.open > span i::before { 
     	-webkit-transform: rotate(180deg);
@@ -756,7 +756,7 @@
 		font-size:10px;
 		}
 	html.touch .navigation nav.main ul li span i {
-		background-color:rgba(255,255,255,0.1);
+		background-color:rgba(58,52,46,0.1);
 		}
 	.navigation nav.main > ul > li > span {
 		position:relative;
@@ -806,10 +806,10 @@
 		height:100%;
 		}
 	.navigation nav.main ul li.has-child ul li span a::before { 
-		background-color:rgba(255,255,255,0.1);
+		background-color:rgba(58,52,46,0.1);
 		}
 	html.no-touch .navigation nav.main ul li.has-child ul li span a:hover::before { 
-		background-color:rgba(255,255,255,0.5);
+		background-color:rgba(58,52,46,0.5);
 		}
 	html.no-touch .navigation nav.main ul li.has-child ul li span.active a:hover::before,
 	.navigation nav.main ul li.has-child ul li span.active a::before { 
@@ -878,7 +878,7 @@
 		display:block; margin:15px 0;
 		}
 	.navigation nav.top li a { 
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	.navigation nav.top li a,
 	.navigation nav.top ul .dropdown-menu li a { 
@@ -926,8 +926,8 @@
 	.navigation nav.top ul .dropdown-menu {
 		top:50px; right:0;
 		margin:0; padding:0;
-		border-color:#ffffff; border-color:rgba(255,255,255,1);
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		border-color:#3a342e; border-color:rgba(58,52,46,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		}	
 	.navigation nav.top ul .dropdown-menu li {
 		margin:0; float:none;
@@ -1169,7 +1169,7 @@
 		background-color:rgba(225,226,229,0.5);
 		}
 	html.no-touch nav#pagination .pagination li:not(.active) a:hover {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		background-color:#ec6425; background-color:rgba(236,100,37,1);
 		}
 		
@@ -1180,7 +1180,7 @@
 
 	nav#pagination .pagination li.active a {
 		font-weight:bold;
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		background-color: #46bea8; background-color:rgba(70,190,168,1);
 		}
 	
@@ -1385,14 +1385,14 @@
 		background-color:rgba(70,190,168,0.5);
 		}
 	footer .quick-links ul li a { 
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 		
 	footer .quick-links ul li a::before { 
-		background-color:rgba(255,255,255,0.2);
+		background-color:rgba(58,52,46,0.2);
 		}
 	html.no-touch footer .quick-links ul li a:hover::before { 
-		background-color:rgba(255,255,255,0.5);
+		background-color:rgba(58,52,46,0.5);
 		}
 	
 	@media (min-width:768px) {
@@ -1484,7 +1484,7 @@
 		border-radius:50%;
 		cursor:pointer;
 		
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}		
 	.slick-prev {
 		left:15px;
@@ -1542,11 +1542,11 @@
 		
 	.banner ul.slick-dots li button,
 	.c1-bg ul.slick-dots li button, .c2-bg ul.slick-dots li button, .c3-bg ul.slick-dots li button {
-		background-color:rgba(255,255,255,0.5);
+		background-color:rgba(58,52,46,0.5);
 		}
 	.banner ul.slick-dots li.slick-active button,
 	.c1-bg ul.slick-dots li.slick-active button, .c2-bg ul.slick-dots li.slick-active button, .c3-bg ul.slick-dots li.slick-active button {
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		}
 		
 	.image-carousel ul.slick-dots {
@@ -2272,7 +2272,7 @@
 	.c1-bg nav.tabs .nav li a,
 	.c2-bg nav.tabs .nav li a,
 	.c3-bg nav.tabs .nav li a {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	.c1-bg nav.tabs .nav li:not(.active) a::after,
 	.c2-bg nav.tabs .nav li:not(.active) a::after,
@@ -2282,10 +2282,10 @@
 	html.no-touch .c1-bg nav.tabs .nav li:not(.active) a:hover::after,
 	html.no-touch .c2-bg nav.tabs .nav li:not(.active) a:hover::after,
 	html.no-touch .c3-bg nav.tabs .nav li:not(.active) a:hover::after {
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		}
 	.c1-bg nav.tabs .nav li.active a::after {
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		}
 				
 		
@@ -2374,20 +2374,20 @@
 	.c1-bg .accordion .heading a,
 	.c2-bg .accordion .heading a,
 	.c3-bg .accordion .heading a {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}	
 	.c1-bg .accordion .heading a:not(.collapsed)::after {
-		background-color:#ffffff; background-color:rgba(255,255,255,1);	
+		background-color:#3a342e; background-color:rgba(58,52,46,1);	
 		}
 	.c1-bg .accordion .heading a.collapsed::after,
 	.c2-bg .accordion .heading a.collapsed::after,
 	.c3-bg .accordion .heading a.collapsed::after {
-		background-color:rgba(255,255,255,0.5);
+		background-color:rgba(58,52,46,0.5);
 		}
 	html.no-touch .c1-bg .accordion .heading a.collapsed:hover::after,
 	html.no-touch .c2-bg .accordion .heading a.collapsed:hover::after,
 	html.no-touch .c3-bg .accordion .heading a.collapsed:hover::after {
-		background-color:#ffffff; background-color:rgba(255,255,255,1);	
+		background-color:#3a342e; background-color:rgba(58,52,46,1);	
 		}
 		
 		
@@ -2577,10 +2577,10 @@
 		border-width:0 2px 2px 0; border-style:solid; border-color:#e1e2e5; border-color:rgba(225,226,229,1);
 		}
 	table tr:nth-of-type(even) td {
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		}
 	.tables table tr:nth-of-type(even) td, .tables .body .item:nth-of-type(even) {
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		}
 	table th {
 		font-weight:500; font-size:15px;
@@ -2906,7 +2906,7 @@
 	body .apc.c1-bg .spc.textblock,
 	body .apc.c1-bg .spc.tabbed,
 	body .apc.c1-bg .spc.accordion {
-		color:#ffffff; color:rgba(255,255,255,0.95);
+		color:#3a342e; color:rgba(58,52,46,0.95);
 		}
 	body .apc.c2-bg .spc.textblock,
 	body .apc.c2-bg .spc.tabbed,
@@ -2923,7 +2923,7 @@
 	body .apc.c1-bg .spc.textblock a, body .apc.c1-bg .spc.textblock a:active, body .apc.c1-bg .spc.textblock a:focus,
 	body .apc.c1-bg .spc.tabbed a, body .apc.c1-bg .spc.tabbed a:active, body .apc.c1-bg .spc.tabbed a:focus,
 	body .apc.c1-bg .spc.accordion a, body .apc.c1-bg .spc.accordion a:active, body .apc.c1-bg .spc.accordion a:focus {
-		color:#ffffff; color:rgba(255,255,255,0.95);
+		color:#3a342e; color:rgba(58,52,46,0.95);
 		text-decoration:underline;
 		}
 	
@@ -2937,7 +2937,7 @@
 	body .apc.c1-bg .spc.accordion h1, body .apc.c1-bg .spc.accordion h2, body .apc.c1-bg .spc.accordion h3,
 	body .apc.c1-bg .spc.accordion h4, body .apc.c1-bg .spc.accordion h5, body .apc.c1-bg .spc.accordion h6,
 	body .apc.c1-bg .spc.accordion .heading {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	body .apc.c2-bg .spc.textblock h1, body .apc.c2-bg .spc.textblock h2, body .apc.c2-bg .spc.textblock h3,
 	body .apc.c2-bg .spc.textblock h4, body .apc.c2-bg .spc.textblock h5, body .apc.c2-bg .spc.textblock h6,
@@ -2948,7 +2948,7 @@
 	body .apc.c2-bg .spc.accordion h1, body .apc.c2-bg .spc.tabbed h2, body .apc.c2-bg .spc.tabbed h3,
 	body .apc.c2-bg .spc.accordion h4, body .apc.c2-bg .spc.tabbed h5, body .apc.c2-bg .spc.tabbed h6,
 	body .apc.c2-bg .spc.accordion .heading {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	body .apc.c3-bg .spc.textblock h1, body .apc.c3-bg .spc.textblock h2, body .apc.c3-bg .spc.textblock h3,
 	body .apc.c3-bg .spc.textblock h4, body .apc.c3-bg .spc.textblock h5, body .apc.c3-bg .spc.textblock h6,
@@ -2959,7 +2959,7 @@
 	body .apc.c2-bg .spc.accordion h1, body .apc.c2-bg .spc.accordion h2, body .apc.c2-bg .spc.accordion h3,
 	body .apc.c2-bg .spc.accordion h4, body .apc.c2-bg .spc.accordion h5, body .apc.c2-bg .spc.accordion h6,
 	body .apc.c2-bg .spc.accordion .heading {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 		
 	@media (min-width:768px) {
@@ -3108,7 +3108,7 @@
 		position:relative;
 		width:21px; height:35px;
 		margin:0 auto;
-		border-width:2px; border-style:solid; border-color:#ffffff; border-color:rgba(255,255,255,1);
+		border-width:2px; border-style:solid; border-color:#3a342e; border-color:rgba(58,52,46,1);
 		border-radius:10px;
 		}	
 	.apc.banner .scroll-prompt .mouse-scroll::before {
@@ -3116,7 +3116,7 @@
 		position:absolute; top:10px; left:7px;
 		width:3px; height:6px;
 		border-radius:50%;
-		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		background-color:#3a342e; background-color:rgba(58,52,46,1);
 		
     	-webkit-animation-iteration-count: infinite;
     	animation-iteration-count: infinite;
@@ -3438,14 +3438,14 @@
 	.c1-bg .listing .text,
 	.c1-bg .listing .meta,
 	.c1-bg .listing .meta a { 
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	.c2-bg .listing .text, .c3-bg .listing .text, 
 	.c2-bg .listing .meta, .c3-bg .listing .meta { 
 		color:#e1e2e5; color:rgba(225,226,229,1);
 		}
 	.c1-bg .listing .meta::before, .c2-bg .listing .meta::before, .c3-bg .listing .meta::before { 
-		background-color:rgba(255,255,255,0.25);
+		background-color:rgba(58,52,46,0.25);
 		}
 		
 	.apc.signup-listing .listing .link { 
@@ -3494,10 +3494,10 @@
 		
 	/* BODY COLOR */	
 	body .apc.umb-grid.c1-bg {
-		color:#ffffff; color:rgba(255,255,255,0.95);
+		color:#3a342e; color:rgba(58,52,46,0.95);
 		}
 	body .apc.umb-grid.c2-bg {
-	    color:#ffffff; color:rgba(255,255,255,1);
+	    color:#3a342e; color:rgba(58,52,46,1);
 		}
 	body .apc.umb-grid.c3-bg {
 		color:#e1e2e5; color:rgba(225,226,229,1);
@@ -3511,7 +3511,7 @@
 	
 	/* LINKS */	
 	body .apc.umb-grid.c1-bg a, body .apc.umb-grid.c1-bg a:active, body .apc.umb-grid.c1-bg a:focus {
-		color:#ffffff; color:rgba(255,255,255,0.95);
+		color:#3a342e; color:rgba(58,52,46,0.95);
 		text-decoration:underline;
 		}
 	body .apc.umb-grid.c2-bg a, body .apc.umb-grid.c2-bg a:active, body .apc.umb-grid.c2-bg a:focus {
@@ -3529,17 +3529,17 @@
 	body .apc.umb-grid.c1-bg h1, body .apc.umb-grid.c1-bg h2, body .apc.umb-grid.c1-bg h3,
 	body .apc.umb-grid.c1-bg h4, body .apc.umb-grid.c1-bg h5, body .apc.umb-grid.c1-bg h6,
 	body .apc.umb-grid.c1-bg .heading {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	body .apc.umb-grid.c2-bg h1, body .apc.umb-grid.c2-bg h2, body .apc.umb-grid.c2-bg h3,
 	body .apc.umb-grid.c2-bg h4, body .apc.umb-grid.c2-bg h5, body .apc.umb-grid.c2-bg h6,
 	body .apc.umb-grid.c2-bg .heading {
-	    color:#ffffff; color:rgba(255,255,255,1);
+	    color:#3a342e; color:rgba(58,52,46,1);
 		}
 	body .apc.umb-grid.c3-bg h1, body .apc.umb-grid.c3-bg h2, body .apc.umb-grid.c3-bg h3,
 	body .apc.umb-grid.c3-bg h4, body .apc.umb-grid.c3-bg h5, body .apc.umb-grid.c3-bg h6,
 	body .apc.umb-grid.c3-bg .heading {
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 	body .apc.umb-grid.c4-bg h1, body .apc.umb-grid.c4-bg h2, body .apc.umb-grid.c4-bg h3,
 	body .apc.umb-grid.c4-bg h4, body .apc.umb-grid.c4-bg h5, body .apc.umb-grid.c4-bg h6,
@@ -3910,7 +3910,7 @@
 	.field-validation-error {
 		display:block; padding:5px; font-size:12px;
 		background-color:#a94442;
-		color:#ffffff; color:rgba(255,255,255,1);
+		color:#3a342e; color:rgba(58,52,46,1);
 		}
 
     .field-validation-valid {
@@ -3989,7 +3989,7 @@
 		}
 	.ajax-wrap .ajax-loading {
 	  	position:absolute; top:0; right:0; bottom:0; left:0; z-index:10;
-		background-color:rgba(255,255,255,0.9);
+		background-color:rgba(58,52,46,0.9);
 		} 
 	.ajax-wrap .ajax-loading .loading {
 		margin:0;
