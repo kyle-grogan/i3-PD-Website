@@ -1090,7 +1090,7 @@
 		content:"";
 		position:absolute; top:-7px; right:15px;
 		width:2px; height:40px;
-		background-color:#f4f4f4; background-color:rgba(244,244,244,1);
+		background-color:#f4f4f4; background-color:rgba(227,222,212,1);
 		
 		-webkit-transform:rotate(-30deg); 
 		-moz-transform:rotate(-30deg);
@@ -2566,7 +2566,7 @@
 	table {
 		width:100%;
 		border-width:2px 0 0 2px; border-style:solid; border-color:#e1e2e5; border-color:rgba(225,226,229,1);
-		background-color:#f4f4f4; background-color:rgba(244,244,244,1);
+		background-color:#f4f4f4; background-color:rgba(227,222,212,1);
 		}
 	thead {
 		color: #46bea8; color:rgba(70,190,168,1);
