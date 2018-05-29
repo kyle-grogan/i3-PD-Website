@@ -1000,7 +1000,7 @@
 		}	
 	html.no-touch nav.sub ul li a:hover {
 		padding:10px;
-		background-color:rgba(225,226,229,0.5);
+		background-color:rgba(111,104,98,0.5);
 		}	
 	
 	/* ACTIVE */	
@@ -1008,7 +1008,7 @@
 	html.no-touch nav.sub ul li.active > a:hover {
 		padding:10px;
 		font-weight:700;
-		background-color:#e1e2e5; background-color:rgba(225,226,229,1);
+		background-color:#6f6862; background-color:rgba(111,104,98,1);
 		}
 		
 	nav.sub ul ul {
@@ -1166,7 +1166,7 @@
 		border:0 none;
 		padding:13px 20px; 
 		color:#ec6425; color:rgba(236,100,37,1);
-		background-color:rgba(225,226,229,0.5);
+		background-color:rgba(111,104,98,0.5);
 		}
 	html.no-touch nav#pagination .pagination li:not(.active) a:hover {
 		color:#3a342e; color:rgba(58,52,46,1);
@@ -1220,7 +1220,7 @@
 		content:"";
 		position:absolute; left:0;
 		display:block;
-		background-color:#e1e2e5; background-color:rgba(225,226,229,1);
+		background-color:#6f6862; background-color:rgba(111,104,98,1);
 		}
 	nav.sitemap ul li::before { 
 		top:0; bottom:0;
@@ -2250,7 +2250,7 @@
 		content:"";
 		position:absolute; bottom:0; left:0;
 		width:20px; height:2px;
-		background-color:#e1e2e5; background-color:rgba(225,226,229,1);
+		background-color:#6f6862; background-color:rgba(111,104,98,1);
 		}
 	.apc.tabbed nav.tabs .nav li a::after {
 		left:50%;
@@ -2277,7 +2277,7 @@
 	.c1-bg nav.tabs .nav li:not(.active) a::after,
 	.c2-bg nav.tabs .nav li:not(.active) a::after,
 	.c3-bg nav.tabs .nav li:not(.active) a::after {
-		background-color:rgba(225,226,229,0.5);
+		background-color:rgba(111,104,98,0.5);
 		}
 	html.no-touch .c1-bg nav.tabs .nav li:not(.active) a:hover::after,
 	html.no-touch .c2-bg nav.tabs .nav li:not(.active) a:hover::after,
@@ -2565,16 +2565,16 @@
 
 	table {
 		width:100%;
-		border-width:2px 0 0 2px; border-style:solid; border-color:#e1e2e5; border-color:rgba(225,226,229,1);
+		border-width:2px 0 0 2px; border-style:solid; border-color:#6f6862; border-color:rgba(111,104,98,1);
 		background-color:#f4f4f4; background-color:rgba(227,222,212,1);
 		}
 	thead {
 		color: #46bea8; color:rgba(70,190,168,1);
-		background-color:#e1e2e5; background-color:rgba(225,226,229,1);
+		background-color:#6f6862; background-color:rgba(111,104,98,1);
 		}
 	table th, table td {
 		padding:15px;	
-		border-width:0 2px 2px 0; border-style:solid; border-color:#e1e2e5; border-color:rgba(225,226,229,1);
+		border-width:0 2px 2px 0; border-style:solid; border-color:#6f6862; border-color:rgba(111,104,98,1);
 		}
 	table tr:nth-of-type(even) td {
 		background-color:#3a342e; background-color:rgba(58,52,46,1);
@@ -2708,7 +2708,7 @@
 		}
 	.pricing-menu .item {
 		padding:15px 0;
-		border-width:0 0 2px; border-style:solid; border-color:#e1e2e5; border-color:rgba(225,226,229,1);
+		border-width:0 0 2px; border-style:solid; border-color:#6f6862; border-color:rgba(111,104,98,1);
 		}
 	.pricing-menu .item:last-of-type {
 		border:0 none;
@@ -2911,12 +2911,12 @@
 	body .apc.c2-bg .spc.textblock,
 	body .apc.c2-bg .spc.tabbed,
 	body .apc.c2-bg .spc.accordion {
-		color:#e1e2e5; color:rgba(225,226,229,1);
+		color:#6f6862; color:rgba(111,104,98,1);
 		}
 	body .apc.c3-bg .spc.textblock,
 	body .apc.c3-bg .spc.tabbed,
 	body .apc.c3-bg .spc.accordion {
-		color:#e1e2e5; color:rgba(225,226,229,1);
+		color:#6f6862; color:rgba(111,104,98,1);
 		}
 	
 	/* LINKS */	
@@ -3442,7 +3442,7 @@
 		}
 	.c2-bg .listing .text, .c3-bg .listing .text, 
 	.c2-bg .listing .meta, .c3-bg .listing .meta { 
-		color:#e1e2e5; color:rgba(225,226,229,1);
+		color:#6f6862; color:rgba(111,104,98,1);
 		}
 	.c1-bg .listing .meta::before, .c2-bg .listing .meta::before, .c3-bg .listing .meta::before { 
 		background-color:rgba(58,52,46,0.25);
@@ -3500,7 +3500,7 @@
 	    color:#3a342e; color:rgba(58,52,46,1);
 		}
 	body .apc.umb-grid.c3-bg {
-		color:#e1e2e5; color:rgba(225,226,229,1);
+		color:#6f6862; color:rgba(111,104,98,1);
 		}
 	body .apc.umb-grid.c4-bg {
 		}
