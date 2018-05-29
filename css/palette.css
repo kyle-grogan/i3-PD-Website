@@ -180,7 +180,7 @@
 	  		}
 		
 	.c4-bg {
-		background-color:#f4f4f4; background-color:rgba(227,222,212,1);
+		background-color:#e3ded4; background-color:rgba(227,222,212,1);
 		}
 		.c4-bg.bg-perc_90 {
 			background-color:rgba(227,222,212,0.9);
@@ -467,7 +467,7 @@
 			
 	.c4-text,
 	.c4-text:hover, .c4-text:focus, .c4-text:active {
-		color:#f4f4f4; color:rgba(227,222,212,1);
+		color:#e3ded4; color:rgba(227,222,212,1);
 		}
 		.c4-text.text-perc_90 {
 			color:rgba(227,222,212,0.9);
@@ -697,7 +697,7 @@
 			}
 			
 	.c4-borders {
-		border-color:#f4f4f4; border-color:rgba(227,222,212,1);
+		border-color:#e3ded4; border-color:rgba(227,222,212,1);
 		}
 		.c4-borders.borders-perc_90 {
 			border-color:rgba(227,222,212,0.9);
